@@ -1,5 +1,5 @@
         <div class="page-footer">
-            <div class="page-footer-inner">
+            <div class="page-footer-inner" style="text-align: center;">
                 2017 &copy; MASJID KG. KUALA PANGSUN.
             </div>
         </div>
