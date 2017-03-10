@@ -1,3 +1,78 @@
+<body class="stretched">
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo">
+                        <a href="index.php" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+                        <a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+                    </div><!-- #logo end -->
+
+                    <!-- Primary Navigation
+                    ============================================= -->
+                    <nav id="primary-menu" class="dark">
+
+                        <ul>
+                            <li class="current"><a href="utama"><div>Utama</div></a></li>
+                            <li><a href="profil"><div>Profil</div></a>
+                                <ul>
+                                    <li><a href="#"><div>Perutusan Nazir Masjid</div></a></li>
+                                    <li><a href="#"><div>Sejarah Masjid</div></a></li>
+                                    <li><a href="#"><div>Visi, Misi & Fungsi Masjid</div></a></li>
+                                    <li><a href="#"><div>Piagam Pelanggan</div></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="organisasi"><div>Organisasi</div></a>
+                                <ul>
+                                    <li><a href="#"><div>Carta Organisasi</div></a></li>
+                                    <li><a href="#"><div>Direktori Staff</div></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="kemudahan"><div>Kemudahan</div></a>
+                                <ul>
+                                    <li><a href="#"><div>Dewan Solat</div></a></li>
+                                    <li><a href="#"><div>Dewan Serbaguna</div></a></li>
+                                    <li><a href="#"><div>Pengurusan Jenazah</div></a></li>
+                                    <li><a href="#"><div>Dataran Masjid Pangsun</div></a></li>
+                                    <li><a href="#"><div>Perkhidmatan Jurunikah</div></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="takwim"><div>Takwim</div></a>
+                                <ul>
+                                    <li><a href="#"><div>Jadual Kuliah Harian</div></a></li>
+                                    <li><a href="#"><div>Jadual Program Masjid</div></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="maahadtahfiz"><div>Maahad Tahfiz</div></a>
+                                <ul>
+                                    <li><a href="#"><div>Carta Organisasi</div></a></li>
+                                    <li><a href="#"><div>Profil & Prestasi Pelajar</div></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="hubungikami"><div>Hubungi Kami</div></a></li>
+                        </ul>
+
+                    </nav><!-- #primary-menu end -->
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->        
+
         <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
             <div class="slider-parallax-inner">
 
@@ -313,22 +388,3 @@
                     </div>
 
                 </div>
-
-                <div class="container clearfix" style="text-align: center;">
-
-                    <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
-
-                        <div class="oc-item"><a href="#"><img src="images/masjid/zakat.png" alt="Clients"><span style="text-align: center;">Lembaga Zakat Selangor</span></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/masjid/tabunghaji.png" alt="Clients"><span style="text-align: center;">Lembaga Tabung Haji</span></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/masjid/jais.png" alt="Clients"><span style="text-align: center;">Jabatan Agama Islam Selangor</span></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/masjid/mais.png" alt="Clients"><span style="text-align: center;">Majlis Agama Islam Selangor</span></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/masjid/selangor.png" alt="Clients"><span style="text-align: center;">Kerajaan Negeri Selangor</span></a></div>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section><!-- #content end -->
