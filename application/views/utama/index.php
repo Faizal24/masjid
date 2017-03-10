@@ -1,124 +1,334 @@
-            <br>
-            <div class="row text-center">
-                <div class="col-md-2">
-                        <div>
-                            <!-- <iframe marginheight="0" marginwidth="0" scrolling="no"  src=http://www2.e-solat.gov.my/solatF.php?kod=SGR01&lang=BM&url=http:/www.islam.gov.my width=220 height=310 frameborder=0></iframe> -->
-                            <!-- <script language="JavaScript" src="http://www.waktusolat.net/widget/addon.php" type="text/javascript"></script> -->
-                            <!-- <script language="javascript" src="http://widget.solatfardhu.com/waktusolat/?location_code=135"></script> -->
-                            <!-- <iframe marginheight="0" marginwidth="0" scrolling="no"  src=http://www2.e-solat.gov.my/solat.php?kod=SGR01&lang=BM&url=http:/www.islam.gov.my width=280 height=330 frameborder=0></iframe> -->
-                            <!-- <script language="JavaScript" src="http://www.waktusolat.net/widget/addon.php"></script> -->
-                            <iframe marginheight="0" marginwidth="0" scrolling="no"  src=http://www2.e-solat.gov.my/solatD.php?kod=SGR01&lang=BM&url=http:/www.islam.gov.my width=230 height=330 frameborder=0 style="margin-left: -50px;"></iframe>
-                        </div>
-                    <div class="row">
-                        <div class="well" style="margin-left: -20px; height: 60px; width: 215px; background-color: gold; border-style: none;">
-                            <p style="color: red">Pautan Laman Web</p>
-                        </div>
-                        <div class="well" style="margin-left: -20px; margin-top: -23px;">
-                            <a href="http://www.zakatselangor.com.my/" target="_blank"><img src="img/zakat.png" class="img-responsive"><br><p style="color: blue">Lembaga Zakat Selangor</p></a><hr>
-                            <a href="http://www.tabunghaji.gov.my/" target="_blank"><img src="img/tabunghaji.png" class="img-responsive"><br><p style="color: blue">Lembaga Tabung Haji</p></a><hr>
-                            <a href="http://www.jais.gov.my/" target="_blank"><img src="img/jais.png" class="img-responsive"><br><p style="color: blue">Jabatan Agama Islam Selangor</p></a><hr>
-                            <a href="http://www.selangor.gov.my/" target="_blank"><img src="img/selangor.png" class="img-responsive" style="margin: auto;"><br><p style="color: blue">Kerajaan Negeri Selangor</p></a><hr>
-                            <a href="http://www.mais.gov.my/" target="_blank"><img src="img/mais.png" class="img-responsive" style="margin: auto;"><br><p style="color: blue">Majlis Agama Islam Selangor</p></a>
+        <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
+            <div class="slider-parallax-inner">
+
+                <div class="swiper-container swiper-parent">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide dark" style="background-image: url('images/masjid/header.png');">
+                            <div class="container clearfix">
+                                <div class="slider-caption slider-caption-center">
+                                    <h2 data-caption-animate="fadeInUp">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h2>
+                                    <p data-caption-animate="fadeInUp" data-caption-delay="200"><b>He who builds a masjid in the way of Allah, Allah will build a house for him in the paradise.</b></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
+                    <div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
                 </div>
-                <div class="col-md-7">
-                    <div class="well" style="background-color: blue">
-                        <div class="row">
-                            <h1 class="form-section">Title</h1><hr><br>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4" style="margin: auto;">
-                                <img src="img/bg_classmate.jpg" class="img-responsive" style="margin: auto;">
-                            </div>
-                            <div class="col-md-8">
-                                <p>Aquarium. Photo by Francisco.Sorbet is the template number 4544 in BTemplates, where a total of 50 003 086 templates has been downloaded since 2008. This template was created by NBThemes and is the...</p><br>
-                                <a href="#">READ MORE</a><br><br>
-                                <p>Siapa || Tarikh || Masa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="well" style="background-color: blue">
-                        <div class="row">
-                            <h1 class="form-section">Title</h1><hr><br>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 col-md-push-8" style="margin: auto;">
-                                <img src="img/bg_classmate.jpg" class="img-responsive" style="margin: auto;">
-                            </div>
-                            <div class="col-md-8 col-md-pull-4">
-                                <p>Aquarium. Photo by Francisco.Sorbet is the template number 4544 in BTemplates, where a total of 50 003 086 templates has been downloaded since 2008. This template was created by NBThemes and is the...</p><br>
-                                <a href="#">READ MORE</a><br><br>
-                                <p>Siapa || Tarikh || Masa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="well" style="background-color: blue">
-                        <div class="row" style="margin: auto;">
-                            <h1 class="form-section">Title</h1><hr>
-                        </div>
-                        <div class="row">
-                            <img src="img/bg_classmate.jpg" class="img-responsive" style="margin: auto;"><br>
-                            <div">
-                                <p>Aquarium. Photo by Francisco.Sorbet is the template number 4544 in BTemplates, where a total of 50 003 086 templates has been downloaded since 2008. This template was created by NBThemes and is the...</p><br>
-                                <a href="#">READ MORE</a><br><br>
-                                <p>Siapa || Tarikh || Masa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="well" style="height: 60px; background-color: gold; border-style: none;">
-                            <p style="color: red">Masjid Pangsun</p>
-                        </div>
-                        <div class="well" style="margin-top: -22px; font-size: 5em;">
-                            <p style="color: blue;">Borang2 Online</p>
-                        </div>
-                        <div>
-                            <div class="well" style="height: 60px; background-color: gold; border-style: none;">
-                                <p style="color: red">Facebook</p>
-                            </div>
-                            <div style="margin-top: -20px;">
-                                <script>(function(d, s, id) {
-                                    var js, fjs = d.getElementsByTagName(s)[0];
-                                    if (d.getElementById(id)) {return;}
-                                    js = d.createElement(s); js.id = id;
-                                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-                                    fjs.parentNode.insertBefore(js, fjs);
-                                    }(document, 'script', 'facebook-jssdk'));
-                                </script>
-                                <div class="fb-like-box" data-href="https://www.facebook.com/TahfizPangsun/" data-width="263" data-height="480" data-colorscheme="light" data-show-faces="true" data-stream="true" data-header="true" data-border-color="#ffffff"></div>
-                            </div>
-                        </div>
-                        <br>
-                        <div>
-                            <div class="well" style="height: 60px; background-color: gold; border-style: none;">
-                                <p style="color: red">Video</p>
-                            </div>
-                            <!--Video Masjid-->
-                            <div style="margin-top: -33px;">
-                                <object width="263" height="220"><param name="movie" value="http://pf.kizoa.com/sflite.swf?did=4523837&amp;k=4939993" /><param name="wmode" value="transparent" /><param name="allowFullScreen" value="true" /><embed src="http://pf.kizoa.com/sflite.swf?did=4523837&k=4939993" type="application/x-shockwave-flash" wmode="transparent" width="280" height="260" allowfullscreen="true"></embed></object><br />
-                            </div>
-                        </div>
-                        <br>
-                        <div>
-                            <div class="well" style="height: 60px; background-color: gold; border-style: none;">
-                                <p style="color: red">Hadith & Tazkirah</p>
-                            </div>
-                            <div class="well" style="margin-top: -22px; font-size: 5em;">
-                                <p style="color: blue; text-align: left;">Sabda Rasulullah s.a.w: “Bukanlah (golongan ini) daripada orang beriman yang sempurna imannya : orang yang suka mengecam, suka melaknat yang suka bercakap kufur dan yang suka mencarut”<br>[Riwayat Ahmad]</p>
-                            </div>
-                        </div>
-                        <br>
-                        <div>
-                            <div class="well" style="height: 60px; background-color: gold; border-style: none;">
-                                <p style="color: red">Jumlah Pelawat</p>
-                            </div>
-                                <a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=localhost/masjid/utama&digit=style/plain/24/&reloads=0" alt="www.reliablecounter.com" title="www.reliablecounter.com" border="0" style="height: 70px; width: 263px; margin-top: -20px;"></a>
-                        </div>
-                    </div>
-                </div>
+
+                <a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+                    <div class="row clearfix">
+
+                        <div class="col-lg-5">
+                            <div class="heading-block topmargin">
+                                <h1>Selamat Datang ke<br>Masjid Kg. Kuala Pangsun</h1>
+                            </div>
+                            <p class="lead">Batu 22 1/2, Kg Kuala Pangsun,<br>43100 Hulu Langat, Selangor Darul Ehsan.<br>Lokasi GPS : ( <b>3.2092276</b>, <b>101.8757772</b> )</p>
+                        </div>
+
+                        <div class="col-lg-7">
+
+                            <div style="position: relative; margin-bottom: -60px; margin-left: 80px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
+                                <img src="images/masjid/masjidpangsun.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+                                <!-- <img src="images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad"> -->
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="section nobottommargin">
+                    <div class="container clear-bottommargin clearfix">
+
+                        <div class="row topmargin-sm clearfix">
+
+                            <div class="col-md-2" style="text-align: center;">
+                                <iframe src="http://www.islamicfinder.org/prayer_service.php?country=malaysia&city=hulu_langat&state=&zipcode=&latitude=3.2092276&longitude=101.8757772&timezone=8&HanfiShafi=1&pmethod=1&fajrTwilight1=10&fajrTwilight2=10&ishaTwilight=10&ishaInterval=30&dhuhrInterval=1&maghribInterval=1&dayLight=0&page_background=&table_background=&table_lines=&text_color=&link_color=&prayerFajr=&prayerSunrise=&prayerDhuhr=&prayerAsr=&prayerMaghrib=&prayerIsha=&lang=" frameborder=0 width=175 height=350 marginwidth=0 marginheight=0 scrolling="no"> </iframe>
+                            </div><br>
+
+                            <div class=" col-md-10 bottommargin">
+                                <div class="row bottommargin">
+                                    <center><font size="4">SAHAM AKHIRAT ANDA - RAYUAN INFAQ UNTUK TABUNG MASJID PANGSUN MELALUI PAY PAL DENGAN KAD VISA ATAU MASTER CARD TERUS KE AKAUN "MASJID KG KUALA PANSOON" DI RHB ISLAMIC BANK BERHAD</font></center>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 col-md-offset-3">
+                                        <center>
+                                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                                                    " />
+                                                    <input type="image" src="images/masjid/paypal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                                </form>
+                                            </center>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <center>
+                                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                                                    " />
+                                                    <input type="image" src="images/masjid/paypal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                                </form>
+                                            </center>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <center>
+                                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                                                    " />
+                                                    <input type="image" src="images/masjid/paypal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                                </form>
+                                            </center>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <center><font size="4"><p>AKAUN MASJID : RHB ISLAMIC BANK.  No. A/k : <b>26209000009609</b>  .<br>SUMBANGAN CEK/WANG POS ATAS NAMA : " <b>MASJID KG KUALA PANSOON</b> "</p></font></center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container clearfix">
+
+                    <!-- Posts
+                    ============================================= -->
+                    <div id="posts" class="post-grid grid-container grid-3 clearfix" data-layout="fitRows">
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/grid/17.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single.html">This is a Standard post with a Preview Image</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 10th Feb 2014</li>
+                                <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
+                                <li><a href="#"><i class="icon-camera-retro"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <iframe src="http://player.vimeo.com/video/87701971" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single-full.html">This is a Standard post with a Vimeo Video</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 16th Feb 2014</li>
+                                <li><a href="blog-single-full.html#comments"><i class="icon-comments"></i> 19</a></li>
+                                <li><a href="#"><i class="icon-film"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single-full.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <div class="fslider" data-arrows="false" data-lightbox="gallery">
+                                    <div class="flexslider">
+                                        <div class="slider-wrap">
+                                            <div class="slide"><a href="images/blog/full/10.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/blog/grid/10.jpg" alt="Standard Post with Gallery"></a></div>
+                                            <div class="slide"><a href="images/blog/full/20.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/blog/grid/20.jpg" alt="Standard Post with Gallery"></a></div>
+                                            <div class="slide"><a href="images/blog/full/21.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/blog/grid/21.jpg" alt="Standard Post with Gallery"></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single-small.html">This is a Standard post with a Slider Gallery</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 24th Feb 2014</li>
+                                <li><a href="blog-single-small.html#comments"><i class="icon-comments"></i> 21</a></li>
+                                <li><a href="#"><i class="icon-picture"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single-small.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image clearfix">
+                                <div class="fslider" data-animation="fade" data-pagi="false" data-lightbox="gallery">
+                                    <div class="flexslider">
+                                        <div class="slider-wrap">
+                                            <div class="slide"><a href="images/blog/full/2.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/blog/grid/2.jpg" alt="Standard Post with Gallery"></a></div>
+                                            <div class="slide"><a href="images/blog/full/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/blog/grid/3.jpg" alt="Standard Post with Gallery"></a></div>
+                                            <div class="slide"><a href="images/blog/full/12.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/blog/grid/12.jpg" alt="Standard Post with Gallery"></a></div>
+                                            <div class="slide"><a href="images/blog/full/13.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/blog/grid/13.jpg" alt="Standard Post with Gallery"></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single-thumbs.html">This is a Standard post with Fade Gallery</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 3rd Mar 2014</li>
+                                <li><a href="blog-single-thumbs.html#comments"><i class="icon-comments"></i> 21</a></li>
+                                <li><a href="#"><i class="icon-picture"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single-thumbs.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image clearfix">
+                                <iframe width="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/115823769&amp;auto_play=false&amp;hide_related=true&amp;visual=true"></iframe>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single.html">This is an Embedded Audio Post</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 28th Apr 2014</li>
+                                <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 16</a></li>
+                                <li><a href="#"><i class="icon-music2"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <iframe width="560" height="315" src="http://www.youtube.com/embed/SZEflIVnhH8" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single-full.html">This is a Standard post with a Youtube Video</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 30th Apr 2014</li>
+                                <li><a href="blog-single-full.html#comments"><i class="icon-comments"></i> 34</a></li>
+                                <li><a href="#"><i class="icon-film"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single-full.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="images/blog/full/1.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/grid/1.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single.html">This is a Standard post with another Preview Image</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 5th May 2014</li>
+                                <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 6</a></li>
+                                <li><a href="#"><i class="icon-camera-retro"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <iframe frameborder="0" width="480" height="270" src="http://www.dailymotion.com/embed/video/x18murk" allowfullscreen></iframe>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single-full.html">This is a Standard post with a Dailymotion Video</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 11th May 2014</li>
+                                <li><a href="blog-single-full.html#comments"><i class="icon-comments"></i> 9</a></li>
+                                <li><a href="#"><i class="icon-film"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single-full.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image clearfix">
+                                <iframe width="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/17521446&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+                            </div>
+                            <div class="entry-title">
+                                <h2><a href="blog-single.html">This is another Embedded Audio Post</a></h2>
+                            </div>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 15th May 2014</li>
+                                <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 2</a></li>
+                                <li><a href="#"><i class="icon-music2"></i></a></li>
+                            </ul>
+                            <div class="entry-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
+                                <a href="blog-single.html"class="more-link">Read More</a>
+                            </div>
+                        </div>
+
+                    </div><!-- #posts end -->
+
+                    <!-- Pagination
+                    ============================================= -->
+                    <ul class="pager nomargin">
+                        <li class="previous"><a href="#">&larr; Older</a></li>
+                        <li class="next"><a href="#">Newer &rarr;</a></li>
+                    </ul><!-- .pager end -->
+
+                </div>
+
+                <div class="container clearfix">
+
+                    <div class="row topmargin-lg bottommargin-sm">
+
+                        <div class="heading-block center">
+                            <h2>Sabda Rasullullah s.a.w :</h2>
+                            <span class="divcenter"><b>"Bukanlah (golongan ini) daripada orang beriman yang sempurna imannya : orang yang suka mengecam, yang suka melaknat, yang suka bercakap kufur dan yang suka mencarut"<br>[Riwayat Ahmad]</b></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="container clearfix" style="text-align: center;">
+
+                    <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
+
+                        <div class="oc-item"><a href="#"><img src="images/masjid/zakat.png" alt="Clients"><span style="text-align: center;">Lembaga Zakat Selangor</span></a></div>
+                        <div class="oc-item"><a href="#"><img src="images/masjid/tabunghaji.png" alt="Clients"><span style="text-align: center;">Lembaga Tabung Haji</span></a></div>
+                        <div class="oc-item"><a href="#"><img src="images/masjid/jais.png" alt="Clients"><span style="text-align: center;">Jabatan Agama Islam Selangor</span></a></div>
+                        <div class="oc-item"><a href="#"><img src="images/masjid/mais.png" alt="Clients"><span style="text-align: center;">Majlis Agama Islam Selangor</span></a></div>
+                        <div class="oc-item"><a href="#"><img src="images/masjid/selangor.png" alt="Clients"><span style="text-align: center;">Kerajaan Negeri Selangor</span></a></div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->

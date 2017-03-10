@@ -1,23 +1,36 @@
-        <div class="page-footer">
-            <div class="page-footer-inner" style="text-align: center;">
-                2017 &copy; MASJID KG. KUALA PANGSUN.
+<!-- Footer
+        ============================================= -->
+        <footer id="footer" class="dark">
+
+            <div class="container">
+
+                <!-- Footer Widgets
+                ============================================= -->
+                <div class="footer-widgets-wrap clearfix" style="text-align: center;">
+
+                        <h4>Soalan Lazim &nbsp | &nbsp Hak Cipta &nbsp | &nbsp Peta Laman</h4>
+                        <h4>Hakcipta Terpelihara © 2017 Masjid Kg. Kuala Pangsun<br>Tel : 019-2338393 / 012-6913697</h4>
+
+                </div><!-- .footer-widgets-wrap end -->
+
             </div>
-        </div>
 
-        <!-- jQuery -->
-        <script src="vendor/jquery/jquery.min.js"></script>
+        </footer><!-- #footer end -->
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    </div><!-- #wrapper end -->
 
-        <!-- Plugin JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
 
-        <!-- Theme JavaScript -->
-        <script src="js/creative.min.js"></script>
+    <!-- External JavaScripts
+    ============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
 
-    </body>
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="js/functions.js"></script>
 
+</body>
 </html>
