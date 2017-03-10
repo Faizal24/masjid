@@ -50,7 +50,7 @@
                                     <li><a href="#"><div>Perkhidmatan Jurunikah</div></a></li>
                                 </ul>
                             </li>
-                            <li><a href="takwim"><div>Takwim</div></a>
+                            <li><a href="jadual"><div>Takwim</div></a>
                                 <ul>
                                     <li><a href="#"><div>Jadual Kuliah Harian</div></a></li>
                                     <li><a href="#"><div>Jadual Program Masjid</div></a></li>
