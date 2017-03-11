@@ -116,7 +116,6 @@
 
                             <div style="position: relative; margin-bottom: -60px; margin-left: 80px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
                                 <img src="images/masjid/masjidpangsun.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
-                                <!-- <img src="images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad"> -->
                             </div>
 
                         </div>

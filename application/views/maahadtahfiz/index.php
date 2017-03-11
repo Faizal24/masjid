@@ -102,6 +102,29 @@
 
 				<div class="container clearfix">
 
+					<div>
+
+						<div class="heading-block fancy-title nobottomborder title-bottom-border">
+							<center><h4>Sejarah Maahad Tahfiz Masjid Kg. Kuala Pangsun</h4></center>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
+	                                <img src="images/masjid/sejarah_tahfiz.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+	                            </div>
+							</div>
+							<div class="col-md-8">
+								<center><img src="images/masjid/full/tahfiz.png"></center><br>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>	
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="container clearfix">
+
 					<div class="col_one_third">
 
 						<div class="heading-block fancy-title nobottomborder title-bottom-border">
