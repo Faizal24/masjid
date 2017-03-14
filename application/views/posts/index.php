@@ -1,4 +1,4 @@
-<a class="btn btn-primary" type="submit" href="<?php echo site_url('posts/create')?>">Add New Post</a><br>
+<a class="btn btn-primary" type="submit" href="<?php echo site_url('users/add')?>">Add New Post</a><br>
 <!-- Print all posts --><br>
 <?php
 	$counter = 1;

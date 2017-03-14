@@ -13,6 +13,7 @@ class Users extends CI_Controller
             if(!empty($_FILES['picture']['name'])){
                 $config['upload_path'] = 'uploads/images/';
                 $config['allowed_types'] = 'jpg|jpeg|png|gif';
+                $config['max_size'] = '0';
                 $config['file_name'] = $_FILES['picture']['name'];
                 
                 //Load upload library and initialize configuration
@@ -31,7 +32,11 @@ class Users extends CI_Controller
             
             //Prepare array of user data
             $userData = array(
-                'title' => $this->input->post('title'),
+
+               
+
+                'title'     => $this->input->post('title'),
+                'slug'     => url_title($this->input->post('title')),
                 'content' => $this->input->post('content'),
                 'picture' => $picture
             );
