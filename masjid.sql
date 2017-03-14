@@ -1,21 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: Mar 14, 2017 at 03:47 PM
--- Server version: 10.1.8-MariaDB
--- PHP Version: 5.6.14
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Database: `masjid`
 --
@@ -40,11 +22,9 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `picture`, `title`, `slug`, `content`, `date`) VALUES
-(39, NULL, 'Post 1', 'Post-1', 'Content 1', '2017-03-14 06:09:38'),
-(42, NULL, 'Post 2', 'Post-2', 'Testing', '2017-03-14 06:35:30'),
-(43, NULL, NULL, '', '', '2017-03-14 13:19:54'),
-(44, NULL, NULL, '', '', '2017-03-14 13:19:59'),
-(45, 'chess-10-14755073.jpg', 'asd', '', 'asd', '2017-03-14 14:40:49');
+(45, 'chess-10-14755073.jpg', 'asd', '', 'asd', '2017-03-14 14:40:49'),
+(46, 'chess-1223117-1920x14403.jpg', 'Post 1', '', 'This is post 1', '2017-03-14 15:21:24'),
+(52, 'color-pencil-1143325-1920x12805.jpg', 'Post 2', '', 'This is post 2', '2017-03-14 15:26:22');
 
 -- --------------------------------------------------------
 
@@ -130,7 +110,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
 --
 -- AUTO_INCREMENT for table `schedules`
 --

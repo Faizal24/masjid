@@ -190,7 +190,7 @@
                    
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <a data-lightbox="image"><img class="image_fade" src="<?php echo $post['picture'] ?>" alt="Standard Post with Image"></a>
+                                <a style="width:350px;height:250px;" data-lightbox="image"><img class="image_fade" src="uploads/images/<?php echo $post['picture'] ?>" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-title">
                                 <h2><a href="blog-single.html"><?php echo $post['title'] ?></a></h2>
