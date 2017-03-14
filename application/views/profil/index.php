@@ -1,3 +1,20 @@
+<script>
+	$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+</script>
+
 <body class="stretched">
 
     <!-- Document Wrapper
@@ -29,10 +46,10 @@
                             <li><a href="utama"><div>Utama</div></a></li>
                             <li class="current"><a href="profil"><div>Profil</div></a>
                                 <ul>
-                                    <li><a href="#"><div>Perutusan Nazir Masjid</div></a></li>
-                                    <li><a href="#"><div>Sejarah Masjid</div></a></li>
-                                    <li><a href="#"><div>Visi, Misi & Fungsi Masjid</div></a></li>
-                                    <li><a href="#"><div>Piagam Pelanggan</div></a></li>
+                                    <li><a href="#perutusan"><div>Perutusan Nazir Masjid</div></a></li>
+                                    <li><a href="#sejarah"><div>Sejarah Masjid</div></a></li>
+                                    <li><a href="#visi"><div>Visi, Misi & Fungsi Masjid</div></a></li>
+                                    <li><a href="#piagam"><div>Piagam Pelanggan</div></a></li>
                                 </ul>
                             </li>
                             <li><a href="organisasi"><div>Organisasi</div></a>
@@ -100,7 +117,7 @@
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap">
+			<div class="content-wrap" id="perutusan">
 
 				<div class="row common-height clearfix">
 
@@ -139,8 +156,8 @@
 
 				</div>
 				<br><br><br>
-				<div class="container clearfix">
-
+				<div class="container clearfix" id="sejarah">
+					
 					<div>
 
 						<div class="heading-block fancy-title nobottomborder title-bottom-border">
@@ -159,7 +176,7 @@
 					</div>
 				</div>
 				<br><br>
-				<div class="container clearfix">
+				<div class="container clearfix" id="visi">
 
 					<div class="col_one_third">
 
@@ -192,7 +209,7 @@
 					</div>
 
 				</div>
-				<div class="container clearfix">
+				<div class="container clearfix" id="piagam">
 
 					<div>
 

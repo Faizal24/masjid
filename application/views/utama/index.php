@@ -185,25 +185,29 @@
                     ============================================= -->
                     <div id="posts" class="post-grid grid-container grid-3 clearfix" data-layout="fitRows">
 
+                    <?php foreach ($posts as $post) : ?>
+                        
+                   
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <a href="images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/grid/17.jpg" alt="Standard Post with Image"></a>
+                                <a data-lightbox="image"><img class="image_fade" src="<?php echo $post['picture'] ?>" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-title">
-                                <h2><a href="blog-single.html">This is a Standard post with a Preview Image</a></h2>
+                                <h2><a href="blog-single.html"><?php echo $post['title'] ?></a></h2>
                             </div>
                             <ul class="entry-meta clearfix">
-                                <li><i class="icon-calendar3"></i> 10th Feb 2014</li>
-                                <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
-                                <li><a href="#"><i class="icon-camera-retro"></i></a></li>
+                                <li><i class="icon-calendar3"></i><?php echo $post['date'] ?></li>
+                               <!--  <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
+                                <li><a href="#"><i class="icon-camera-retro"></i></a></li> -->
                             </ul>
                             <div class="entry-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
-                                <a href="blog-single.html"class="more-link">Read More</a>
+                                <p><?php echo $post['content'] ?></p>
+                                <a href="blog-single.html" class="more-link">Read More</a>
                             </div>
                         </div>
-
-                        <div class="entry clearfix">
+                        
+                    <?php endforeach; ?>
+                        <!-- <div class="entry clearfix">
                             <div class="entry-image">
                                 <iframe src="http://player.vimeo.com/video/87701971" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
@@ -362,7 +366,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur!</p>
                                 <a href="blog-single.html"class="more-link">Read More</a>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div><!-- #posts end -->
 

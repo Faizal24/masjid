@@ -5,8 +5,11 @@ class Utama extends CI_Controller {
 
 	public function index()
 	{
+
+		$data['posts'] = $this->post_model->get_posts();
+
 		$this->load->view('common/header');
-		$this->load->view('utama/index');
+		$this->load->view('utama/index', $data);
 		$this->load->view('common/footer');
 	}
 

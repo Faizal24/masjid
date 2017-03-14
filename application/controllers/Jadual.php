@@ -5,8 +5,11 @@ class Jadual extends CI_Controller {
 
 	public function index()
 	{
+
+		$data['schedules'] = $this->schedule_model->get_schedules();
+
 		$this->load->view('common/header');
-		$this->load->view('jadual/index');
+		$this->load->view('jadual/index', $data);
 		$this->load->view('common/footer');		
 	}
 
