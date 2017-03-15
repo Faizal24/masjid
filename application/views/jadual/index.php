@@ -120,22 +120,22 @@
                                 <div class="entry clearfix">
                                 <div class="entry-image">
                                     <a href="#">
-                                        <img src="images/events/thumbs/1.jpg" alt="Inventore voluptates velit totam ipsa tenetur">
+                                        <img src="uploads/images/<?php echo $schedule['picture'] ?>" alt="Inventore voluptates velit totam ipsa tenetur">
                                        <!--  <div class="entry-date"><?php echo $schedule->date ?></span></div> -->
                                     </a>
                                 </div>
                                 <div class="entry-c">
                                     <div class="entry-title">
-                                        <h2><a href="#"><?php echo $schedule->title ?></a></h2>
+                                        <h2><a href="#"><?php echo $schedule['title'] ?></a></h2>
                                     </div>
                                     <ul class="entry-meta clearfix">
                                        <!--  <li><span class="label label-warning">Private</span></li> -->
-                                        <li><a href="#"><i class="icon-calendar3"></i></i> <?php echo $schedule->date ?></a></li>
-                                        <li><a href="#"><i class="icon-time"></i> <?php echo $schedule->time ?></a></li>
-                                        <li><a href="#"><i class="icon-map-marker2"></i> <?php echo $schedule->place ?></a></li>
+                                        <li><a href="#"><i class="icon-calendar3"></i></i> <?php echo $schedule['date'] ?></a></li>
+                                        <li><a href="#"><i class="icon-time"></i> <?php echo $schedule['time'] ?></a></li>
+                                        <li><a href="#"><i class="icon-map-marker2"></i> <?php echo $schedule['place'] ?></a></li>
                                     </ul>
                                     <div class="entry-content">
-                                        <p><?php echo $schedule->content ?></p>
+                                        <p><?php echo $schedule['content'] ?></p>
                                         <!-- <a href="#" class="btn btn-default" disabled="disabled">Buy Tickets</a> <a href="#" class="btn btn-danger">Read More</a> -->
                                     </div>
                                 </div>

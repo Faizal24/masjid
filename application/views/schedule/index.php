@@ -1,4 +1,4 @@
-<a class="btn btn-primary" type="submit" href="<?php echo site_url('users/add')?>">Add New Post</a><br>
+<a class="btn btn-primary" type="submit" href="<?php echo site_url('adminschedule/add')?>">Add New Post</a><br>
 <!-- Print all posts --><br>
 <?php
 	$counter = 1;
@@ -17,9 +17,9 @@
 		<td><?php echo $counter; ?></td>
 		<!-- <td><a href="<?php echo site_url('schedule/'.$post['slug']) ?>"><?php echo $post['title']; ?></a></td> -->
 		<td><?php echo $schedule['title']; ?></td>
-		<td><a class="btn btn-primary" href="<?php echo site_url('schedule/'.$post['slug']) ?>">View</a></td>
+		<td><a class="btn btn-primary" href="<?php echo site_url('schedule/'.$schedule['slug']) ?>">View</a></td>
 		<td><a class="btn btn-primary" href="schedule/edit/<?php echo $schedule['slug']; ?>">Edit</a></td>
-		<td><?php echo form_open('/posts/delete/'.$post['id']); ?>
+		<td><?php echo form_open('/schedule/delete/'.$schedule['id']); ?>
 			<input type="submit" value="Delete" class="btn btn-danger">
 		</form>
 		</td>

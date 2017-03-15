@@ -1,3 +1,21 @@
+-- phpMyAdmin SQL Dump
+-- version 4.5.1
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Mar 15, 2017 at 09:53 AM
+-- Server version: 10.1.8-MariaDB
+-- PHP Version: 5.6.14
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
 --
 -- Database: `masjid`
 --
@@ -22,9 +40,10 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `picture`, `title`, `slug`, `content`, `date`) VALUES
-(45, 'chess-10-14755073.jpg', 'asd', '', 'asd', '2017-03-14 14:40:49'),
-(46, 'chess-1223117-1920x14403.jpg', 'Post 1', '', 'This is post 1', '2017-03-14 15:21:24'),
-(52, 'color-pencil-1143325-1920x12805.jpg', 'Post 2', '', 'This is post 2', '2017-03-14 15:26:22');
+(54, 'examination-1431866-1599x2132.jpg', 'Post 4', 'Post-4', 'Post 4', '2017-03-14 15:42:07'),
+(55, 'glasses-1-1413015-1918x1284.jpg', 'Post 5 Edited', 'Post-5-Edited', 'This is post 5', '2017-03-15 08:38:40'),
+(56, 'examination-1431866-1599x21321.jpg', 'dsddsd', 'dsddsd', 'asd', '2017-03-15 08:38:34'),
+(57, 'examination-1431866-1599x21322.jpg', 'dsadds', 'dsadds', 'asd', '2017-03-15 08:38:30');
 
 -- --------------------------------------------------------
 
@@ -34,8 +53,9 @@ INSERT INTO `posts` (`id`, `picture`, `title`, `slug`, `content`, `date`) VALUES
 
 CREATE TABLE `schedules` (
   `id` int(255) NOT NULL,
-  `photo` varchar(255) NOT NULL,
+  `picture` varchar(255) NOT NULL,
   `title` varchar(255) DEFAULT NULL,
+  `slug` varchar(255) NOT NULL,
   `date` date DEFAULT NULL,
   `time` varchar(255) DEFAULT NULL,
   `place` varchar(255) DEFAULT NULL,
@@ -46,8 +66,9 @@ CREATE TABLE `schedules` (
 -- Dumping data for table `schedules`
 --
 
-INSERT INTO `schedules` (`id`, `photo`, `title`, `date`, `time`, `place`, `content`) VALUES
-(1, '', 'Jadual 1', '2017-03-14', '10.40', 'KL', 'Lorem ipsum');
+INSERT INTO `schedules` (`id`, `picture`, `title`, `slug`, `date`, `time`, `place`, `content`) VALUES
+(1, '', 'Jadual 2 Edited', 'Jadual-2-Edited', '2017-03-14', '10.40', 'KL', 'Lorem ipsum'),
+(3, 'home-work-close-up-3-1236915-1919x1278.jpg', 'Jadual Test', 'Jadual-Test', '0000-00-00', 'Sekarang', 'Rumah', 'Testing');
 
 -- --------------------------------------------------------
 
@@ -110,12 +131,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
 --
 -- AUTO_INCREMENT for table `schedules`
 --
 ALTER TABLE `schedules`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `users`
 --

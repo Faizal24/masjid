@@ -50,7 +50,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['posts/create'] = 'posts/create';
+$route['schedule/update'] = 'schedule/update';
 $route['posts/update'] = 'posts/update';
+$route['schedule/(:any)'] = 'schedule/view/$1';
 $route['posts/(:any)'] = 'posts/view/$1';
 $route['default_controller'] = 'utama';
 $route['404_override'] = '';

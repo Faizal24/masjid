@@ -1,9 +1,11 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');
-class Users extends CI_Controller
-{
-    function  __construct() {
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class AdminSchedule extends CI_Controller {
+
+	function  __construct() {
         parent::__construct();
-        $this->load->model('user');
+        $this->load->model('admin');
     }
     
     function add(){
@@ -34,12 +36,15 @@ class Users extends CI_Controller
             $userData = array(
                 'title'     => $this->input->post('title'),
                 'slug'      => url_title($this->input->post('title')),
+                'date'		=> $this->input->post('date'),
+                'time'		=> $this->input->post('time'),
+                'place'		=> $this->input->post('place'),
                 'content'   => $this->input->post('content'),
                 'picture'   => $picture
             );
             
             //Pass user data to model
-            $insertUserData = $this->user->insert($userData);
+            $insertUserData = $this->admin->insert($userData);
             
             //Storing insertion status message.
             if($insertUserData){
@@ -50,6 +55,10 @@ class Users extends CI_Controller
         }
         //Form for adding user data
         $this->load->view('header');
-        $this->load->view('users/add');
+        $this->load->view('admin/schedule');
     }
+
 }
+
+/* End of file Admin.php */
+/* Location: ./application/controllers/Admin.php */

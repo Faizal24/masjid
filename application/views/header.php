@@ -30,7 +30,7 @@
 			<div id="navbar">
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="<?php echo base_url(); ?>posts">Posts</a></li>
-					<li><a href="">Schedule</a></li>
+					<li><a href="<?php echo base_url(); ?>schedule">Schedule</a></li>
 					<!-- <li><a href="<?php echo base_url(); ?>">Home</a></li>
 					<li><a href="<?php echo base_url(); ?>about">About</a></li>
 					<li><a href="<?php echo base_url(); ?>posts">Blog</a></li> -->
