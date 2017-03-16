@@ -120,7 +120,7 @@
                                 <div class="entry clearfix">
                                 <div class="entry-image">
                                     <a href="#">
-                                        <img src="uploads/images/<?php echo $schedule['picture'] ?>" alt="Inventore voluptates velit totam ipsa tenetur">
+                                        <img src="admin/uploads/images/<?php echo $schedule['picture'] ?>" alt="Inventore voluptates velit totam ipsa tenetur">
                                        <!--  <div class="entry-date"><?php echo $schedule->date ?></span></div> -->
                                     </a>
                                 </div>
