@@ -78,7 +78,7 @@
 
                 <div class="swiper-container swiper-parent">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide dark" style="background-image: url('images/masjid/jadual_bg.png');">
+                        <div class="swiper-slide dark" style="background-image: url('images/masjid/organisasi_bg.png');">
                             <div class="container clearfix">
                                 <div class="slider-caption slider-caption-center">
                                     <h2 data-caption-animate="fadeInUp">Carta Organisasi</h2>

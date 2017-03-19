@@ -34,8 +34,8 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo">
-                        <a href="index.php" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-                        <a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+                        <a href="index.php" class="standard-logo" data-dark-logo="images/masjid/masjid_pangsun_small.png"><img src="images/masjid/masjid_pangsun_small_brown.png" alt="Masjid Logo"></a>
+                        <a href="index.php" class="retina-logo" data-dark-logo="images/masjid/full/masjid_pangsun.png"><img src="images/masjid/full/masjid_pangsun_brown.png" alt="Masjid Logo"></a>
                     </div><!-- #logo end -->
 
                     <!-- Primary Navigation
@@ -165,11 +165,23 @@
 						</div>
 
 						<div class="row">
-							<div class="col-md-4 col-md-push-8">
-								<img src="images/masjid/sejarah_masjid.jpg">
+							<div class="col-md-4">
+								<img src="images/masjid/masjidLama1.jpg">
+								<br><br>
+								<img src="images/masjid/masjidLama2.jpg">
 							</div>
-							<div class="col-md-8 col-md-pull-4">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>	
+							<div class="col-md-4">
+								<br><br><br>
+								<p style="text-align: justify;">Didirikan di awal tahun 1970an, Masjid Kariah Kg Kuala Pangsun (atau Masjid Pangsun) terletak di kampung paling hujung dan paling hulu di daerah Hulu Langat. Lokasi masjid dibina di pinggiran sungai Langat yang sungguh nyaman dan menenangkan  dan telah melalui beberapa fasa transformasi fizikal.</p>
+								<br><br><br><br><br>
+								<p style="text-align: justify;"">Terkini pada tahun 2014, bangunan asal masjid telah diubahsuai dan dilengkapi dengan kompleks Maahad Tahfiz termasuk kuarters Mudir, bilik mandi jenazah, dapur dan tempat makan khusus untuk pelajar-pelajar Tahfiz, ruang parkir berbumbung, taman permainan kanak-kanak, jambatan serta dataran Masjid Pangsun dan skrin giant TV 300". Semua kemudahan ini adalah sumbangan 100% infaq orang-ramai yang ingin melihat peranan Masjid Pangsun lebih terserlah sebagai pusat perkembangan ilmu dan pembangun ummah dan bukan semata-mata tempat solat lima waktu harian sahaja.</p>
+							</div>
+							<div class="col-md-4">
+								<img src="images/masjid/sejarah_masjid.jpg">
+								<br><br>
+								<img src="images/masjid/masjidBaru1.jpg">
+								<br><br>
+								<img src="images/masjid/masjidBaru2.jpg">
 							</div>
 						</div>
 
