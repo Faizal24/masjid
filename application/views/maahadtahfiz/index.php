@@ -198,6 +198,7 @@
 									<th>Juzuk Sekarang</th>
 								</tr>
 							</thead>
+							
 							<tfoot>
 								<tr>
 									<th>Nama</th>
@@ -207,120 +208,23 @@
 									<th>Juzuk Sekarang</th>
 								</tr>
 							</tfoot>
+
 							<tbody>
+							<?php foreach($tahfizs as $tahfiz) : ?>
 								<tr>
-									<td>Ahmad Najmi bin Ahmad Fuad</td>
-									<td>16 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 1</td>
-									<td>Juzuk 3</td>
+									<td><?php echo $tahfiz['nama']; ?></td>
+									<td><?php echo $tahfiz['umur']; ?> Tahun</td>
+									<td><?php echo $tahfiz['tarikh_mula']; ?></td>
+									<td><?php echo $tahfiz['juzuk_mula']; ?></td>
+									<td><?php echo $tahfiz['juzuk_sekarang']; ?></td>
+									
 								</tr>
-								<tr>
-									<td>Zakariya bin Adam</td>
-									<td>21 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 20</td>
-									<td>Juzuk 30</td>
-								</tr>
-								<tr>
-									<td>Romly bin Syukur</td>
-									<td>18 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 15</td>
-									<td>Juzuk 21</td>
-								</tr>
-								<tr>
-									<td>Arif bin Syukur</td>
-									<td>14 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 1</td>
-									<td>Juzuk 3</td>
-								</tr>
-								<tr>
-									<td>Syakrany bin Hambali</td>
-									<td>19 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 8</td>
-									<td>Juzuk 15</td>
-								</tr>
-								<tr>
-									<td>Abdulkarim bin Musa</td>
-									<td>18 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 9</td>
-									<td>Juzuk 18</td>
-								</tr>
-								<tr>
-									<td>Syukry bin Musa</td>
-									<td>20 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 7</td>
-									<td>Juzuk 13</td>
-								</tr>
-								<tr>
-									<td>Zakariya bin Ali</td>
-									<td>18 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 8</td>
-									<td>Juzuk 12</td>
-								</tr>
-								<tr>
-									<td>Arifin bin Mustafa</td>
-									<td>15 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 10</td>
-									<td>Juzuk 16</td>
-								</tr>
-								<tr>
-									<td>Nizam bin Ahmad</td>
-									<td>16 Tahun</td>
-									<td>N/A</td>
-									<td>Nazirah</td>
-									<td>Juzuk 29 & 30</td>
-								</tr>
-								<tr>
-									<td>Rofyin bin Sulaiman</td>
-									<td>16 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 13</td>
-									<td>Juzuk 21</td>
-								</tr>
-								<tr>
-									<td>Ahmad Najmi bin Ahmad Fuad</td>
-									<td>16 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 1</td>
-									<td>Juzuk 3</td>
-								</tr>
-								<tr>
-									<td>Zakariya bin Sulaiman</td>
-									<td>17 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 10</td>
-									<td>Juzuk 11</td>
-								</tr>
-								<tr>
-									<td>Abdol Qawi bin Sufyan</td>
-									<td>15 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 13</td>
-									<td>Juzuk 22</td>
-								</tr>
-								<tr>
-									<td>Abdul Rasyid bin Ali</td>
-									<td>15 Tahun</td>
-									<td>N/A</td>
-									<td>Juzuk 1</td>
-									<td>Juzuk 4</td>
-								</tr>
-								<tr>
-									<td>Azizi bin Zulkifly</td>
-									<td>11 Tahun</td>
-									<td>N/A</td>
-									<td>Iqra':1</td>
-									<td>Iqra':3</td>
-								</tr>
-								<tr>
+							<?php endforeach; ?>
+							</tbody>
+							
+									
+								
+								<!-- <tr>
 									<td>Azizan bin Zulkifly</td>
 									<td>11 Tahun</td>
 									<td>N/A</td>
@@ -342,7 +246,7 @@
 									<td>nazirah:1</td>
 								</tr>
 
-							</tbody>
+							</tbody> -->
 						</table>
 
 					</div>

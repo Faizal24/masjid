@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 20, 2017 at 01:07 PM
+-- Generation Time: Mar 20, 2017 at 03:49 PM
 -- Server version: 10.1.8-MariaDB
 -- PHP Version: 5.6.14
 
@@ -73,6 +73,31 @@ INSERT INTO `schedules` (`id`, `picture`, `title`, `slug`, `day`, `month`, `year
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tahfiz`
+--
+
+CREATE TABLE `tahfiz` (
+  `id` int(11) NOT NULL,
+  `nama` varchar(255) NOT NULL,
+  `slug` varchar(255) NOT NULL,
+  `umur` varchar(255) NOT NULL,
+  `tarikh_mula` varchar(255) DEFAULT NULL,
+  `juzuk_mula` varchar(255) DEFAULT NULL,
+  `juzuk_sekarang` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tahfiz`
+--
+
+INSERT INTO `tahfiz` (`id`, `nama`, `slug`, `umur`, `tarikh_mula`, `juzuk_mula`, `juzuk_sekarang`) VALUES
+(1, 'Faizal', 'faizal', '23', '20-3-2017', '1', '30'),
+(2, 'Syafiq', 'Syafiq', '24', NULL, NULL, NULL),
+(3, 'Syafiq Sinwan Edited', 'Syafiq-Sinwan-Edited', '23', '20-3-2017', '1', '30');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `users`
 --
 
@@ -118,6 +143,12 @@ ALTER TABLE `schedules`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `tahfiz`
+--
+ALTER TABLE `tahfiz`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -137,6 +168,11 @@ ALTER TABLE `posts`
 --
 ALTER TABLE `schedules`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `tahfiz`
+--
+ALTER TABLE `tahfiz`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `users`
 --

@@ -31,6 +31,7 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="<?php echo base_url(); ?>posts">Posts</a></li>
 					<li><a href="<?php echo base_url(); ?>schedule">Schedule</a></li>
+					<li><a href="<?php echo base_url(); ?>tahfiz">Tahfiz</a></li>
 				</ul>
 			</div>
 		</div>
