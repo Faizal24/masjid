@@ -36,8 +36,11 @@ class AdminSchedule extends CI_Controller {
             $userData = array(
                 'title'     => $this->input->post('title'),
                 'slug'      => url_title($this->input->post('title')),
-                'date'		=> $this->input->post('date'),
-                'time'		=> $this->input->post('time'),
+                'day'		=> $this->input->post('day'),
+                'month'      => $this->input->post('month'),
+                'year'     => $this->input->post('year'),
+                'start'		=> $this->input->post('start'),
+                'end'     => $this->input->post('end'),
                 'place'		=> $this->input->post('place'),
                 'content'   => $this->input->post('content'),
                 'picture'   => $picture

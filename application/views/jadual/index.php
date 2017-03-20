@@ -116,12 +116,14 @@
                         </div>
                         <div id="posts" class="events small-thumbs">
 
+
+
                             <?php foreach($schedules as $schedule) : ?>
                                 <div class="entry clearfix">
                                 <div class="entry-image">
                                     <a href="#">
                                         <img src="admin/uploads/images/<?php echo $schedule['picture'] ?>" alt="Inventore voluptates velit totam ipsa tenetur">
-                                       <!--  <div class="entry-date"><?php echo $schedule->date ?></span></div> -->
+                                       <div class="entry-date"><?php echo $schedule['day'] ?><span><?php echo $schedule['month'] ?></span></div>
                                     </a>
                                 </div>
                                 <div class="entry-c">
@@ -130,8 +132,7 @@
                                     </div>
                                     <ul class="entry-meta clearfix">
                                        <!--  <li><span class="label label-warning">Private</span></li> -->
-                                        <li><a href="#"><i class="icon-calendar3"></i></i> <?php echo $schedule['date'] ?></a></li>
-                                        <li><a href="#"><i class="icon-time"></i> <?php echo $schedule['time'] ?></a></li>
+                                        <li><a href="#"><i class="icon-time"></i><?php echo $schedule['start'] ?>  - <?php echo $schedule['end'] ?></a></li>
                                         <li><a href="#"><i class="icon-map-marker2"></i> <?php echo $schedule['place'] ?></a></li>
                                     </ul>
                                     <div class="entry-content">
@@ -161,8 +162,8 @@
                                         <li><a href="#"><i class="icon-map-marker2"></i> Perth, Australia</a></li>
                                     </ul>
                                     <div class="entry-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga.</p>
-                                        <a href="#" class="btn btn-info">RSVP</a> <a href="#" class="btn btn-danger">Read More</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blandidi fuga.</p>
+                                        <a hretiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligenf="#" class="btn btn-info">RSVP</a> <a href="#" class="btn btn-danger">Read More</a>
                                     </div>
                                 </div>
                             </div>

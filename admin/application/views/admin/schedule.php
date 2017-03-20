@@ -12,12 +12,24 @@
                 <input class="form-control" type="text" name="title" />
             </div>
              <div class="form-group">
-                <label>Date</label>
-                <input class="form-control" type="text" name="date" />
+                <label>Day</label>
+                <input class="form-control" type="text" name="day" />
             </div>
              <div class="form-group">
-                <label>Time</label>
-                <input class="form-control" type="text" name="time" />
+                <label>Month</label>
+                <input class="form-control" type="text" name="month" />
+            </div>
+             <div class="form-group">
+                <label>Year</label>
+                <input class="form-control" type="text" name="year" />
+            </div>
+             <div class="form-group">
+                <label>Start</label>
+                <input class="form-control" type="text" name="start" />
+            </div>
+             <div class="form-group">
+                <label>End</label>
+                <input class="form-control" type="text" name="end" />
             </div>
              <div class="form-group">
                 <label>Place</label>

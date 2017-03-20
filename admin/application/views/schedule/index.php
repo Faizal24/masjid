@@ -18,7 +18,7 @@
 		<!-- <td><a href="<?php echo site_url('schedule/'.$post['slug']) ?>"><?php echo $post['title']; ?></a></td> -->
 		<td><?php echo $schedule['title']; ?></td>
 		<td><a class="btn btn-primary" href="<?php echo site_url('schedule/'.$schedule['slug']) ?>">View</a></td>
-		<td><a class="btn btn-primary" href="schedule/edit/<?php echo $schedule['slug']; ?>">Edit</a></td>
+		<td><a class="btn btn-primary" href="edit/<?php echo $schedule['slug']; ?>">Edit</a></td>
 		<td><?php echo form_open('/schedule/delete/'.$schedule['id']); ?>
 			<input type="submit" value="Delete" class="btn btn-danger">
 		</form>

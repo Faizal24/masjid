@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 15, 2017 at 09:53 AM
+-- Generation Time: Mar 20, 2017 at 01:07 PM
 -- Server version: 10.1.8-MariaDB
 -- PHP Version: 5.6.14
 
@@ -40,10 +40,8 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `picture`, `title`, `slug`, `content`, `date`) VALUES
-(54, 'examination-1431866-1599x2132.jpg', 'Post 4', 'Post-4', 'Post 4', '2017-03-14 15:42:07'),
-(55, 'glasses-1-1413015-1918x1284.jpg', 'Post 5 Edited', 'Post-5-Edited', 'This is post 5', '2017-03-15 08:38:40'),
-(56, 'examination-1431866-1599x21321.jpg', 'dsddsd', 'dsddsd', 'asd', '2017-03-15 08:38:34'),
-(57, 'examination-1431866-1599x21322.jpg', 'dsadds', 'dsadds', 'asd', '2017-03-15 08:38:30');
+(58, 'chess-1223117-1920x14407.jpg', 'Test 1', 'Test-1', 'Testing', '2017-03-20 11:55:28'),
+(59, 'color-pencil-1143325-1920x12806.jpg', 'Test 2', 'Test-2', 'Test 2', '2017-03-20 11:55:59');
 
 -- --------------------------------------------------------
 
@@ -56,8 +54,11 @@ CREATE TABLE `schedules` (
   `picture` varchar(255) NOT NULL,
   `title` varchar(255) DEFAULT NULL,
   `slug` varchar(255) NOT NULL,
-  `date` date DEFAULT NULL,
-  `time` varchar(255) DEFAULT NULL,
+  `day` varchar(255) DEFAULT NULL,
+  `month` varchar(255) NOT NULL,
+  `year` varchar(255) NOT NULL,
+  `start` varchar(255) DEFAULT NULL,
+  `end` varchar(255) NOT NULL,
   `place` varchar(255) DEFAULT NULL,
   `content` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -66,9 +67,8 @@ CREATE TABLE `schedules` (
 -- Dumping data for table `schedules`
 --
 
-INSERT INTO `schedules` (`id`, `picture`, `title`, `slug`, `date`, `time`, `place`, `content`) VALUES
-(1, '', 'Jadual 2 Edited', 'Jadual-2-Edited', '2017-03-14', '10.40', 'KL', 'Lorem ipsum'),
-(3, 'home-work-close-up-3-1236915-1919x1278.jpg', 'Jadual Test', 'Jadual-Test', '0000-00-00', 'Sekarang', 'Rumah', 'Testing');
+INSERT INTO `schedules` (`id`, `picture`, `title`, `slug`, `day`, `month`, `year`, `start`, `end`, `place`, `content`) VALUES
+(6, 'glasses-1-1413015-1918x12844.jpg', 'Jadual 1', 'Jadual-1', '20', 'March', '2017', '8.00', '10.00', 'Universiti Putra Malaysia', 'This is Jadual Satu');
 
 -- --------------------------------------------------------
 
@@ -136,7 +136,7 @@ ALTER TABLE `posts`
 -- AUTO_INCREMENT for table `schedules`
 --
 ALTER TABLE `schedules`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `users`
 --
