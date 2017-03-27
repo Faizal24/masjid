@@ -29,7 +29,13 @@
 				'juzuk_sekarang' 	=> $this->input->post('juzuk_sekarang'),
 			);
 			
-			return $this->db->insert('tahfiz', $data);
+			 $insertUserData = $this->db->insert('tahfiz', $data);
+
+			 if($insertUserData){
+                    $this->session->set_flashdata('success_msg', '<div class="alert alert-success">Data have been added successfully.</div>');
+                }else{
+                    $this->session->set_flashdata('error_msg', 'Some problems occured, please try again.');
+                }
 		}
 
 		public function delete_tahfiz($id){

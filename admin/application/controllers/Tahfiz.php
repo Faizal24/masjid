@@ -36,6 +36,7 @@
 		$this->form_validation->set_rules('tarikh_mula', 'Tarikh Mula','required');
 		$this->form_validation->set_rules('juzuk_mula', 'Juzuk Mula','required');
 		$this->form_validation->set_rules('juzuk_sekarang', 'Juzuk Sekarang','required');
+		$this->form_validation->set_error_delimiters('<div class="text-danger">', '</div>');
 
 		if($this->form_validation->run() == FALSE){
 			$this->load->view('common/header');
@@ -44,8 +45,13 @@
 		}
 		else{
 			$this->tahfiz_model->create_tahfiz();
-			redirect('tahfiz');
+			$this->session->set_flashdata('success_msg', '<div class="alert alert-success">Data have been added successfully.</div>');
+			// redirect('tahfiz');
+			$this->load->view('common/header');
+        	$this->load->view('tahfiz/create');
+
 		}
+		
 	}
 
 	public function delete($id){
