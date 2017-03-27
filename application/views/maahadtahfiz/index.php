@@ -27,41 +27,17 @@
 
                         <ul>
                             <li><a href="utama"><div>Utama</div></a></li>
-                            <li><a href="profil"><div>Profil</div></a>
+                            <li><a href="profil"><div>Profil</div></a></li>
+                            <li><a href="organisasi"><div>Organisasi</div></a></li>
+                            <li><a href="kemudahan"><div>Kemudahan</div></a></li>
+                            <li><a href="#"><div>Perkhidmatan</div></a>
                                 <ul>
-                                    <li><a href="#"><div>Perutusan Nazir Masjid</div></a></li>
-                                    <li><a href="#"><div>Sejarah Masjid</div></a></li>
-                                    <li><a href="#"><div>Visi, Misi & Fungsi Masjid</div></a></li>
-                                    <li><a href="#"><div>Piagam Pelanggan</div></a></li>
+                                    <li><a href="jenazah"><div>Pengurusan<br>Jenazah</div></a></li>
+                                    <li><a href="jurunikah"><div>Perkhidmatan<br>Jurunikah</div></a></li>
                                 </ul>
                             </li>
-                            <li><a href="organisasi"><div>Organisasi</div></a>
-                                <ul>
-                                    <li><a href="#"><div>Carta Organisasi</div></a></li>
-                                    <li><a href="#"><div>Direktori Staff</div></a></li>
-                                </ul>
-                            </li>
-                            <li><a href="kemudahan"><div>Kemudahan</div></a>
-                                <ul>
-                                    <li><a href="#"><div>Dewan Solat</div></a></li>
-                                    <li><a href="#"><div>Dewan Serbaguna</div></a></li>
-                                    <li><a href="#"><div>Pengurusan Jenazah</div></a></li>
-                                    <li><a href="#"><div>Dataran Masjid Pangsun</div></a></li>
-                                    <li><a href="#"><div>Perkhidmatan Jurunikah</div></a></li>
-                                </ul>
-                            </li>
-                            <li><a href="jadual"><div>Takwim</div></a>
-                                <ul>
-                                    <li><a href="#"><div>Jadual Kuliah Harian</div></a></li>
-                                    <li><a href="#"><div>Jadual Program Masjid</div></a></li>
-                                </ul>
-                            </li>
-                            <li class="current"><a href="maahadtahfiz"><div>Maahad Tahfiz</div></a>
-                                <ul>
-                                    <li><a href="#"><div>Carta Organisasi</div></a></li>
-                                    <li><a href="#"><div>Profil & Prestasi Pelajar</div></a></li>
-                                </ul>
-                            </li>
+                            <li><a href="jadual"><div>Takwim</div></a></li>
+                            <li class="current"><a href="maahadtahfiz"><div>Maahad Tahfiz</div></a></li>
                             <li><a href="hubungikami"><div>Hubungi Kami</div></a></li>
                         </ul>
 
