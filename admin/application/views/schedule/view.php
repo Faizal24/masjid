@@ -6,9 +6,10 @@
 	  <div class="panel-body">
 	  	<div class="form-group">
 	  		<label>Picture : </label>
-	  		<img src="admin/uploads/images/<?php echo $schedule['picture'] ?>" alt="Standard Post with Image"><!-- <?php echo $post['picture']; ?>
+	  		<!-- <img src="admin/uploads/images/<?php echo $schedule['picture'] ?>" alt="Standard Post with Image"> --><!-- <?php echo $post['picture']; ?>
 	  		<!-- <img src="https://www.w3schools.com/images/picture.jpg" alt="Smiley face" width="42" height="42"> -->
 	  		<!-- <img src="uploads/images/chess.jpg" alt="Test" width="42" height="42"> -->
+	  		<img src="<?php echo base_url(); ?>uploads/images/<?php echo $schedule['picture']?>" alt="Test" width="250" height="150" />
 	  	</div>
 	  	<div class="form-group">
 	  		<label>Title : </label>
