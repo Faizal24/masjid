@@ -2,9 +2,9 @@
 	<head>
 		<title>Masjid Pangsun</title>   
 		<link rel="stylesheet" type="text/css" href="https://bootswatch.com/united/bootstrap.min.css">
-		<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css">
+		<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css"> -->
 
-		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/style.css"></script>
+		<!-- <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/style.css"></script> -->
 		<script src="https://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
 		<style>
 			.general-profile-photo {
@@ -92,7 +92,6 @@
 				<div class="col-md-10">
 					<h1><span class="glyphicon glyphicon-dashboard"></span> Dashboard <small>Masjid Pangsun</small></h1>
 				</div>
-
 			</div>
 		</div>
 	</header>
