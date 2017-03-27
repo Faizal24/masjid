@@ -47,8 +47,12 @@
                             <li class="current"><a href="profil"><div>Profil</div></a></li>
                             <li><a href="organisasi"><div>Organisasi</div></a></li>
                             <li><a href="kemudahan"><div>Kemudahan</div></a></li>
-                            <li><a href="jenazah"><div>Pengurusan Jenazah</div></a></li>
-                            <li><a href="jurunikah"><div>Perkhidmatan Jurunikah</div></a></li>
+                            <li><a href="#"><div>Perkhidmatan</div></a>
+                                <ul>
+                                    <li><a href="jenazah"><div>Pengurusan<br>Jenazah</div></a></li>
+                                    <li><a href="jurunikah"><div>Perkhidmatan<br>Jurunikah</div></a></li>
+                                </ul>
+                            </li>
                             <li><a href="jadual"><div>Takwim</div></a></li>
                             <li><a href="maahadtahfiz"><div>Maahad Tahfiz</div></a></li>
                             <li><a href="hubungikami"><div>Hubungi Kami</div></a></li>
