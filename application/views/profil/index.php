@@ -109,20 +109,7 @@
 							<div class="row clearfix">
 
 								<div>
-									<p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-									<p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-										<i class="icon-twitter"></i>
-										<i class="icon-twitter"></i>
-									</a>
-									<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-										<i class="icon-gplus"></i>
-										<i class="icon-gplus"></i>
-									</a>
+									<img src="images/masjid/perutusan.jpg" style="width: 700px; height: 1000px;">
 								</div>
 
 							</div>
@@ -172,7 +159,7 @@
 							<h4><span>Visi</span> Masjid.</h4>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+						<p>Visi Masjid Pangsun  ialah menjadi sebuah pusat kecemerlangan dan tumpuan ahli kariah lebih dari sekadar tempat untuk solat berjemaah 5 waktu dengan menyediakan program-program pengajian ilmu muktabar & berkualiti, pusat Tahfiz Al Quran & Hadis, aktiviti muamalat, kemasyarakatan serta riadhah khususnya bagi anak-anak, remaja dan generasi belia untuk mencapai kehebatan dan kejayaan di dunia dan akhirat.</p>
 
 					</div>
 
@@ -182,7 +169,7 @@
 							<h4><span>Misi</span> Masjid.</h4>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+						<p>Misi Masjid Pangsun ialah membangunkan insan dan masyarakat khususnya ahli kariah Pangsun untuk menjadi Mukmin hebat  dengan melaksanakan pelbagai program dan aktiviti keagamaan dan keduniaan yang berkualiti, inovatif, holistik serta bersinergi dengan pelbagai pihak.</p>
 
 					</div>
 

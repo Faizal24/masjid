@@ -16,7 +16,7 @@
 
                     <!-- Logo
                     ============================================= -->
-                    <div id="logo" style="width: 300px;">
+                    <div id="logo">
                         <a href="index.php" class="standard-logo" data-dark-logo="images/masjid/masjid_pangsun_small.png"><img src="images/masjid/masjid_pangsun_small_brown.png" alt="Masjid Logo"></a>
                         <a href="index.php" class="retina-logo" data-dark-logo="images/masjid/full/masjid_pangsun.png"><img src="images/masjid/full/masjid_pangsun_brown.png" alt="Masjid Logo"></a>
                     </div><!-- #logo end -->
@@ -91,13 +91,14 @@
 
                 <div class="row common-height clearfix">
 
-                    <div class="col-sm-5 col-padding" style="background: url('images/masjid/nazir.png') center center no-repeat; background-size: cover;"></div>
+                    <div class="col-sm-5 col-padding" style="background: url('images/masjid/organisasi/ismailBasar.png') center center no-repeat; background-size: cover;"></div>
 
                     <div class="col-sm-7 col-padding">
                         <div>
                             <div class="heading-block">
                                 <span class="before-heading color">Nazir Masjid Kg. Kuala Pangsun</span>
                                 <h3>Haji Ismail Bin Basar</h3>
+                                Tel : 019-233 8393
                             </div>
 
                             <div class="row clearfix">
@@ -128,13 +129,14 @@
                 <div class="line"></div>
                 <div class="row common-height clearfix">
 
-                    <div class="col-sm-5 col-sm-push-7 col-padding" style="background: url('images/masjid/ustaz.jpg') center center no-repeat; background-size: cover;"></div>
+                    <div class="col-sm-5 col-sm-push-7 col-padding" style="background: url('images/masjid/organisasi/maas.png') center center no-repeat; background-size: cover;"></div>
 
                     <div class="col-sm-7 col-sm-pull-5 col-padding">
                         <div>
                             <div class="heading-block">
                                 <span class="before-heading color">Timbalan Nazir Masjid Kg. Kuala Pangsun</span>
-                                <h3>Haji Ismail Bin Basar</h3>
+                                <h3>En. Maas Bin Abdulah</h3>
+                                Tel : 012-614 7615
                             </div>
 
                             <div class="row clearfix">
@@ -169,13 +171,13 @@
 
                         <div class="team">
                             <div class="team-image">
-                                <img src="images/masjid/ustaz.jpg" alt="John Doe">
+                                <img src="images/masjid/organisasi/nizam.png" alt="En Ahmad Nizam Madio">
                             </div>
                             <div class="team-desc">
-                                <div class="team-title"><h4>Nama<span>Setiausaha</span></h4></div>
+                                <div class="team-title"><h4>En Ahmad Nizam Madio<span>Setiausaha</span></h4></div>
                                 <p>Alamat :
                                 <br>
-                                No. Telefon :</p>
+                                No. Telefon :  012-691 3697</p>
                             </div>
                         </div>
 
@@ -185,13 +187,13 @@
 
                         <div class="team">
                             <div class="team-image">
-                                <img src="images/masjid/ustaz.jpg" alt="Josh Thompson">
+                                <img src="images/masjid/organisasi/rashid.png" alt="En Mohd Rashid Haji Hayat">
                             </div>
                             <div class="team-desc">
-                                <div class="team-title"><h4>Nama<span>Penolong Setiausaha</span></h4></div>
+                                <div class="team-title"><h4>En Mohd Rashid Haji Hayat<span>Penolong Setiausaha / Ketua Kampung</span></h4></div>
                                 <p>Alamat :
                                 <br>
-                                No. Telefon :</p>
+                                No. Telefon : 017-346 3570</p>
                             </div>
                         </div>
 
@@ -201,13 +203,13 @@
 
                         <div class="team">
                             <div class="team-image">
-                                <img src="images/masjid/ustaz.jpg" alt="Mary Jane">
+                                <img src="images/masjid/organisasi/rohana.png" alt="Dr Hjh Rohana Abdul Rahman">
                             </div>
                             <div class="team-desc">
-                                <div class="team-title"><h4>Nama<span>Bendahari</span></h4></div>
+                                <div class="team-title"><h4>Dr Hjh Rohana Abdul Rahman<span>Bendahari (Pemangku)</span></h4></div>
                                 <p>Alamat :
                                 <br>
-                                No. Telefon :</p>
+                                No. Telefon : 013-255 9791</p>
                             </div>
                         </div>
 
@@ -219,13 +221,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="John Doe">
+                                    <img src="images/masjid/organisasi/muhyidin.png" alt="AF Ustaz Muhyidin Mustafa">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama</h4><span>Imam I</span></div>
+                                    <div class="team-title"><h4>AF Ustaz Muhyidin Mustafa</h4><span>Imam I (JAKIM)</span></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 013-365 2033</p>
                                 </div>
                             </div>
 
@@ -235,13 +237,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Josh Clark">
+                                    <img src="images/masjid/organisasi/faizal.png" alt="En. Mohd Faizal Hamzah">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama</h4><span>Imam II</span></div>
+                                    <div class="team-title"><h4>En. Mohd Faizal Hamzah</h4><span>Imam II</span></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 017-266 9200</p>
                                 </div>
                             </div>
 
@@ -251,13 +253,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Mary Jane">
+                                    <img src="images/masjid/organisasi/tiada.png" alt="Mohd Amin Mohd Sir">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama</h4><span>Bilal I</span></div>
+                                    <div class="team-title"><h4>Mohd Amin Mohd Sir</h4><span>Bilal I</span></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 012-243 6875</p>
                                 </div>
                             </div>
 
@@ -267,81 +269,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Nix Maxwell">
+                                    <img src="images/masjid/organisasi/rashid.png" alt="Nix Maxwell">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama</h4><span>Bilal II</span></div>
+                                    <div class="team-title"><h4>En. Mohd Rashid Haji Hayat</h4><span>Bilal II (Pemangku)</span></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="line"></div>
-                    <div class="row">
-
-                        <div class="col-md-3 col-sm-6 bottommargin">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="John Doe">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Siak I</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon :</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 bottommargin">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Josh Clark">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Siak II</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon :</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 bottommargin">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Mary Jane">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Ketua Pemuda</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon :</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 bottommargin">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Nix Maxwell">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Ketua Wanita</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 017-346 3570</p>
                                 </div>
                             </div>
 
@@ -355,13 +289,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="John Doe">
+                                    <img src="images/masjid/organisasi/malik.png" alt="Malik bin Laris">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Ahli Jawatankuasa</span></h4></div>
+                                    <div class="team-title"><h4>Malik bin Laris<span>Siak I</span></h4></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 017-626 6753</p>
                                 </div>
                             </div>
 
@@ -371,13 +305,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Josh Clark">
+                                    <img src="images/masjid/organisasi/fuad.png" alt="Josh Clark">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Ahli Jawatankuasa</span></h4></div>
+                                    <div class="team-title"><h4>En. Mohd Fuad Yusof<span>Siak II</span></h4></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 019-231 5509</p>
                                 </div>
                             </div>
 
@@ -387,13 +321,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Mary Jane">
+                                    <img src="images/masjid/organisasi/ismailHassan.png" alt="Muhd Ismail Hassan">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Ahli Jawatankuasa</span></h4></div>
+                                    <div class="team-title"><h4>Muhd Ismail Hassan<span>Ketua Pemuda</span></h4></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 012-295 2977</p>
                                 </div>
                             </div>
 
@@ -403,13 +337,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Nix Maxwell">
+                                    <img src="images/masjid/organisasi/jamaliah.png" alt="Pn Jamaliah Jamaluddin">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Ahli Jawatankuasa</span></h4></div>
+                                    <div class="team-title"><h4>Pn Jamaliah Jamaluddin<span>Ketua Wanita</span></h4></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 012-247 6352</p>
                                 </div>
                             </div>
 
@@ -419,17 +353,17 @@
                     <div class="line"></div>
                     <div class="row">
 
-                        <div class="col-md-3 col-md-offset-1 col-sm-6 bottommargin">
+                        <div class="col-md-3 col-sm-6 bottommargin">
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="John Doe">
+                                    <img src="images/masjid/organisasi/hamdin.png" alt="En. Hamdin Samad">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Ahli Jawatankuasa</span></h4></div>
+                                    <div class="team-title"><h4>En. Hamdin Samad<span>Ahli Jawatankuasa</span></h4></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 012-280 1544</p>
                                 </div>
                             </div>
 
@@ -439,13 +373,13 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Josh Clark">
+                                    <img src="images/masjid/organisasi/sabariah.png" alt="Pn Sabariah Hassan">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Pemeriksa Kira2 I</span></h4></div>
+                                    <div class="team-title"><h4>Pn Sabariah Hassan<span>Ahli Jawatankuasa</span></h4></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 017 -381 4435</p>
                                 </div>
                             </div>
 
@@ -455,13 +389,97 @@
 
                             <div class="team">
                                 <div class="team-image">
-                                    <img src="images/masjid/ustaz.jpg" alt="Mary Jane">
+                                    <img src="images/masjid/organisasi/tiada.png" alt="Ali Hamdan Haji Hayat">
                                 </div>
                                 <div class="team-desc">
-                                    <div class="team-title"><h4>Nama<span>Pemeriksa Kira2 II</span></h4></div>
+                                    <div class="team-title"><h4>Ali Hamdan Haji Hayat<span>Ahli Jawatankuasa</span></h4></div>
                                     <p>Alamat :
                                     <br>
-                                    No. Telefon :</p>
+                                    No. Telefon : 012-247 6352</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 bottommargin">
+
+                            <div class="team">
+                                <div class="team-image">
+                                    <img src="images/masjid/organisasi/tiada.png" alt="Mohd Khaidzir">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Mohd Khaidzir<span>Ahli Jawatankuasa</span></h4></div>
+                                    <p>Alamat :
+                                    <br>
+                                    No. Telefon : 012-980 7193</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="line"></div>
+                    <div class="row">
+
+                        <div class="col-md-3 col-sm-6 bottommargin">
+
+                            <div class="team">
+                                <div class="team-image">
+                                    <img src="images/masjid/organisasi/tiada.png" alt="Pn Sawiyah">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Pn Sawiyah<span>Ahli Jawatankuasa</span></h4></div>
+                                    <p>Alamat :
+                                    <br>
+                                    No. Telefon : 019-391 9182</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 bottommargin">
+
+                            <div class="team">
+                                <div class="team-image">
+                                    <img src="images/masjid/organisasi/tiada.png" alt="Pn Fauziah">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Pn Fauziah<span>Ahli Jawatankuasa</span></h4></div>
+                                    <p>Alamat :
+                                    <br>
+                                    No. Telefon : 019-391 9182</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 bottommargin">
+
+                            <div class="team">
+                                <div class="team-image">
+                                    <img src="images/masjid/organisasi/atminar.png" alt="Pn. Atminar">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Pn. Atminar<span>Pemeriksa Kira2 I</span></h4></div>
+                                    <p>Alamat :
+                                    <br>
+                                    No. Telefon : 011-1430 6518</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 bottommargin">
+
+                            <div class="team">
+                                <div class="team-image">
+                                    <img src="images/masjid/organisasi/rohana.png" alt="Dr Hjh Rohana Abdul Rahman">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Dr Hjh Rohana Abdul Rahman<span>Pemeriksa Kira2 II</span></h4></div>
+                                    <p>Alamat :
+                                    <br>
+                                    No. Telefon : 013-255 9791</p>
                                 </div>
                             </div>
 
