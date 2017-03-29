@@ -14,7 +14,7 @@
                 <div class="form-group">
                     <label>Picture</label>
                     <input class="form-control" type="file" name="picture" />
-                     <?php echo form_error('picture'); ?>
+                     <!-- <?php echo form_error('picture'); ?> -->
                 </div>
                 <div class="form-group">
                     <label>Title</label>
