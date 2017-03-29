@@ -21,7 +21,7 @@
 		</div>
 		<div class="form-group">
 			<label>Time : </label>
-			<?php echo $schedule['start']; ?> - <?php echo $schedule['end']; ?>
+			<?php echo $schedule['start']; ?> - <?php echo $schedule['end']; ?> 
 		</div>
 		<div class="form-group">
 			<label>Place : </label>

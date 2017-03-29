@@ -2,10 +2,33 @@
 	<head>
 		<title>Masjid Pangsun</title>   
 		<link rel="stylesheet" type="text/css" href="https://bootswatch.com/united/bootstrap.min.css">
-		<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css"> -->
+		<link rel="stylesheet" href="<?php echo base_url(); ?>bootstrap-timepicker/css/bootstrap-timepicker.css">
+        <link type="text/css" href="<?php echo base_url(); ?>bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
 
+
+        <!--Datepicker -->
+        <link type="text/css" href="<?php echo base_url(); ?>datepicker/css/bootstrap-datepicker3.css" />
+        <link type="text/css" href="<?php echo base_url(); ?>datepicker/css/bootstrap-datepicker3.min.css" />
+
+        
 		<!-- <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/style.css"></script> -->
+		<script type="text/javascript" src="<?php echo base_url(); ?>jquery-3.2.0.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="https://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+		<!-- <script type="text/javascript" src="http://momentjs.com/downloads/moment.js"></script> -->
+		<script type="text/javascript" src="<?php echo base_url(); ?>bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>datepicker/js/bootstrap-datepicker.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>datepicker/js/bootstrap-datepicker.min.js"></script>
+		
+		
+
+	
+
+
+
+		
+
 		<style>
 			.general-profile-photo {
 				height: 70px;
@@ -105,12 +128,5 @@
 					<a class="list-group-item" href="<?php echo base_url(); ?>tahfiz"><span class="glyphicon glyphicon-user"></span> Tahfiz</a>
 				</div>
 
-			</div>
-		 
-	
-
-	
-
-	<!-- <div class="container-fluid"> -->
-
-	
+			</div>	
+ 

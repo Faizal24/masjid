@@ -22,7 +22,17 @@
 				</div>
 				<div class="form-group">
 					<label>Tarikh Mula</label>
-					<input class="form-control" name="tarikh_mula" placeholder="Tarikh Mula">
+					<div id="sandbox-container">
+						<input type="text" class="form-control" placeholder="Tarikh Mula" name="tarikh_mula">
+					</div>
+						<!-- <div class="container-fluid"> -->
+
+						
+					<script type="text/javascript">
+						$('#sandbox-container input').datepicker({
+					    todayHighlight: true
+					});
+					</script>
 				 	<?php echo form_error('tarikh_mula'); ?>
 				</div>
 				<div class="form-group">

@@ -58,7 +58,9 @@ class AdminSchedule extends CI_Controller {
                     'month'     => $this->input->post('month'),
                     'year'      => $this->input->post('year'),
                     'start'     => $this->input->post('start'),
+                    
                     'end'       => $this->input->post('end'),
+                  
                     'place'     => $this->input->post('place'),
                     'content'   => $this->input->post('content'),
                     'picture'   => $picture

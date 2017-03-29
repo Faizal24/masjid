@@ -33,7 +33,7 @@
 			<td><a class="btn btn-default" href="<?php echo site_url('posts/'.$post['slug']) ?>">View</a></td>
 			<td><a class="btn btn-default" href="posts/edit/<?php echo $post['slug']; ?>">Edit</a></td>
 			<td><?php echo form_open('/posts/delete/'.$post['id']); ?>
-				<input type="submit" value="Delete" class="btn btn-danger">
+				<input type="submit" value="Delete" class="btn btn-danger" onclick="return doconfirm();">
 			</form>
 			</td>
 		</tr>
@@ -46,3 +46,13 @@
 	
 </div>
 
+<script>
+function doconfirm()
+{
+    post=confirm("Are you sure you want to delete it?");
+    if(post!=true)
+    {
+        return false;
+    }
+}
+</script>
