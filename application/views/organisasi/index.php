@@ -373,6 +373,22 @@
 
                             <div class="team">
                                 <div class="team-image">
+                                    <img src="images/masjid/organisasi/khaidir.png" alt="Mohd Khaidzir">
+                                </div>
+                                <div class="team-desc">
+                                    <div class="team-title"><h4>Mohd Khaidzir<span>Ahli Jawatankuasa</span></h4></div>
+                                    <p>Alamat :
+                                    <br>
+                                    No. Telefon : 012-980 7193</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 bottommargin">
+
+                            <div class="team">
+                                <div class="team-image">
                                     <img src="images/masjid/organisasi/sabariah.png" alt="Pn Sabariah Hassan">
                                 </div>
                                 <div class="team-desc">
@@ -396,22 +412,6 @@
                                     <p>Alamat :
                                     <br>
                                     No. Telefon : 012-247 6352</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 bottommargin">
-
-                            <div class="team">
-                                <div class="team-image">
-                                    <img src="images/masjid/organisasi/tiada.png" alt="Mohd Khaidzir">
-                                </div>
-                                <div class="team-desc">
-                                    <div class="team-title"><h4>Mohd Khaidzir<span>Ahli Jawatankuasa</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 012-980 7193</p>
                                 </div>
                             </div>
 
