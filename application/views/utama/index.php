@@ -99,16 +99,16 @@
                     </div>
                 </div>
 
-                <div class="section nobottommargin">
+                <div class="section bottommargin">
                     <div class="container clear-bottommargin clearfix">
 
-                        <div class="row topmargin-sm clearfix">
+                        <div class="row clearfix">
 
-                            <div class="col-md-2" style="text-align: center;">
+                            <div class="col-md-3" style="text-align: center;">
                                 <iframe src="http://www.islamicfinder.org/prayer_service.php?country=malaysia&city=hulu_langat&state=&zipcode=&latitude=3.2092276&longitude=101.8757772&timezone=8&HanfiShafi=1&pmethod=1&fajrTwilight1=10&fajrTwilight2=10&ishaTwilight=10&ishaInterval=30&dhuhrInterval=1&maghribInterval=1&dayLight=0&page_background=&table_background=&table_lines=&text_color=&link_color=&prayerFajr=&prayerSunrise=&prayerDhuhr=&prayerAsr=&prayerMaghrib=&prayerIsha=&lang=" frameborder=0 width=175 height=350 marginwidth=0 marginheight=0 scrolling="no"> </iframe>
                             </div><br>
 
-                            <div class=" col-md-10 bottommargin">
+                            <!-- <div class=" col-md-10 bottommargin">
                                 <div class="row bottommargin">
                                     <center><font size="4">SAHAM AKHIRAT ANDA - RAYUAN INFAQ UNTUK TABUNG MASJID PANGSUN MELALUI PAY PAL DENGAN KAD VISA ATAU MASTER CARD TERUS KE AKAUN "MASJID KG KUALA PANSOON" DI RHB ISLAMIC BANK BERHAD</font></center>
                                 </div>
@@ -150,7 +150,21 @@
                                 <div class="row">
                                     <center><font size="4"><p>AKAUN MASJID : RHB ISLAMIC BANK.  No. A/k : <b>26209000009609</b>  .<br>SUMBANGAN CEK/WANG POS ATAS NAMA : " <b>MASJID KG KUALA PANSOON</b> "</p></font></center>
                                 </div>
+                            </div> -->
+
+                            <div class="col-md-4">
+                                <center><h3>Muat turun Teks Khutbah Jumaat <a href="http://e-masjid.jais.gov.my/index.php/ekhutbah/rumi" target="_blank">Di Sini</a></h3></center>
+                                <img src="images/masjid/khutbah.jpg">
                             </div>
+
+                            <div class="col-md-4">
+                                <center><h3>Facebook Maahad Tahfiz Masjid Pangsun</h3></center>
+                                <a href="https://www.facebook.com/TahfizPangsun/" target="_blank"><img src="images/masjid/maahadTahfiz.jpg" style="height: 190px;"></a>
+                            </div>
+
+                            <!-- <div class="col-md-4">
+                                pengurusan jenazah
+                            </div> -->
                         </div>
                     </div>
                 </div>

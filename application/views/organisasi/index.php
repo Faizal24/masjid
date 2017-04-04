@@ -88,85 +88,30 @@
         <section id="content">
 
             <div class="content-wrap">
-
-                <div class="row common-height clearfix">
-
-                    <div class="col-sm-5 col-padding" style="background: url('images/masjid/organisasi/ismailBasar.png') center center no-repeat; background-size: cover;"></div>
-
-                    <div class="col-sm-7 col-padding">
-                        <div>
-                            <div class="heading-block">
-                                <span class="before-heading color">Nazir Masjid Kg. Kuala Pangsun</span>
-                                <h3>Haji Ismail Bin Basar</h3>
-                                Tel : 019-233 8393
-                            </div>
-
-                            <div class="row clearfix">
-
-                                <div>
-                                    <p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-                                    <p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
-                                    <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                        <i class="icon-facebook"></i>
-                                        <i class="icon-facebook"></i>
-                                    </a>
-                                    <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                        <i class="icon-twitter"></i>
-                                        <i class="icon-twitter"></i>
-                                    </a>
-                                    <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                        <i class="icon-gplus"></i>
-                                        <i class="icon-gplus"></i>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="line"></div>
-                <div class="row common-height clearfix">
-
-                    <div class="col-sm-5 col-sm-push-7 col-padding" style="background: url('images/masjid/organisasi/maas.png') center center no-repeat; background-size: cover;"></div>
-
-                    <div class="col-sm-7 col-sm-pull-5 col-padding">
-                        <div>
-                            <div class="heading-block">
-                                <span class="before-heading color">Timbalan Nazir Masjid Kg. Kuala Pangsun</span>
-                                <h3>En. Maas Bin Abdulah</h3>
-                                Tel : 012-614 7615
-                            </div>
-
-                            <div class="row clearfix">
-
-                                <div>
-                                    <p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-                                    <p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
-                                    <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                        <i class="icon-facebook"></i>
-                                        <i class="icon-facebook"></i>
-                                    </a>
-                                    <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                        <i class="icon-twitter"></i>
-                                        <i class="icon-twitter"></i>
-                                    </a>
-                                    <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                        <i class="icon-gplus"></i>
-                                        <i class="icon-gplus"></i>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="line"></div>
                 <div class="container clearfix">
-
+                	<div class="col-md-5 col-md-offset-1">
+                		<div class="team">
+                            <div class="team-image">
+                                <img src="images/masjid/organisasi/ismailBasar.png" alt="Haji Ismail Bin Basar">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title"><h4>Haji Ismail Bin Basar<span>Nazir Masjid Kg. Kuala Pangsun</span></h4></div>
+                                <p>No. Telefon :  019-233 8393</p>
+                            </div>
+                        </div>
+                	</div>
+                	<div class="col-md-5">
+                		<div class="team">
+                            <div class="team-image">
+                                <img src="images/masjid/organisasi/maas.png" alt="En. Maas Bin Abdulah">
+                            </div>
+                            <div class="team-desc">
+                                <div class="team-title"><h4>En. Maas Bin Abdulah<span>Timbalan Nazir Masjid Kg. Kuala Pangsun</span></h4></div>
+                                <p>No. Telefon :  012-614 7615</p>
+                            </div>
+                        </div>
+                	</div>
+                	<div class="line"></div>
                     <div class="col_one_third">
 
                         <div class="team">
@@ -175,9 +120,7 @@
                             </div>
                             <div class="team-desc">
                                 <div class="team-title"><h4>En Ahmad Nizam Madio<span>Setiausaha</span></h4></div>
-                                <p>Alamat :
-                                <br>
-                                No. Telefon :  012-691 3697</p>
+                                <p>No. Telefon :  012-691 3697</p>
                             </div>
                         </div>
 
@@ -191,9 +134,7 @@
                             </div>
                             <div class="team-desc">
                                 <div class="team-title"><h4>En Mohd Rashid Haji Hayat<span>Penolong Setiausaha / Ketua Kampung</span></h4></div>
-                                <p>Alamat :
-                                <br>
-                                No. Telefon : 017-346 3570</p>
+                                <p>No. Telefon : 017-346 3570</p>
                             </div>
                         </div>
 
@@ -207,9 +148,7 @@
                             </div>
                             <div class="team-desc">
                                 <div class="team-title"><h4>Dr Hjh Rohana Abdul Rahman<span>Bendahari (Pemangku)</span></h4></div>
-                                <p>Alamat :
-                                <br>
-                                No. Telefon : 013-255 9791</p>
+                                <p>No. Telefon : 013-255 9791</p>
                             </div>
                         </div>
 
@@ -225,9 +164,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>AF Ustaz Muhyidin Mustafa</h4><span>Imam I (JAKIM)</span></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 013-365 2033</p>
+                                    <p>No. Telefon : 013-365 2033</p>
                                 </div>
                             </div>
 
@@ -241,9 +178,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>En. Mohd Faizal Hamzah</h4><span>Imam II</span></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 017-266 9200</p>
+                                    <p>No. Telefon : 017-266 9200</p>
                                 </div>
                             </div>
 
@@ -257,9 +192,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Mohd Amin Mohd Sir</h4><span>Bilal I</span></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 012-243 6875</p>
+                                    <p>No. Telefon : 012-243 6875</p>
                                 </div>
                             </div>
 
@@ -273,9 +206,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>En. Mohd Rashid Haji Hayat</h4><span>Bilal II (Pemangku)</span></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 017-346 3570</p>
+                                    <p>No. Telefon : 017-346 3570</p>
                                 </div>
                             </div>
 
@@ -293,9 +224,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Malik bin Laris<span>Siak I</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 017-626 6753</p>
+                                    <p>No. Telefon : 017-626 6753</p>
                                 </div>
                             </div>
 
@@ -309,9 +238,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>En. Mohd Fuad Yusof<span>Siak II</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 019-231 5509</p>
+                                    <p>No. Telefon : 019-231 5509</p>
                                 </div>
                             </div>
 
@@ -325,9 +252,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Muhd Ismail Hassan<span>Ketua Pemuda</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 012-295 2977</p>
+                                    <p>No. Telefon : 012-295 2977</p>
                                 </div>
                             </div>
 
@@ -341,9 +266,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Pn Jamaliah Jamaluddin<span>Ketua Wanita</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 012-247 6352</p>
+                                    <p>No. Telefon : 012-247 6352</p>
                                 </div>
                             </div>
 
@@ -361,9 +284,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>En. Hamdin Samad<span>Ahli Jawatankuasa</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 012-280 1544</p>
+                                    <p>No. Telefon : 012-280 1544</p>
                                 </div>
                             </div>
 
@@ -393,9 +314,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Pn Sabariah Hassan<span>Ahli Jawatankuasa</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 017 -381 4435</p>
+                                    <p>No. Telefon : 017 -381 4435</p>
                                 </div>
                             </div>
 
@@ -409,9 +328,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Ali Hamdan Haji Hayat<span>Ahli Jawatankuasa</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 012-247 6352</p>
+                                    <p>No. Telefon : 012-247 6352</p>
                                 </div>
                             </div>
 
@@ -429,9 +346,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Pn Sawiyah<span>Ahli Jawatankuasa</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 019-391 9182</p>
+                                    <p>No. Telefon : 019-391 9182</p>
                                 </div>
                             </div>
 
@@ -445,9 +360,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Pn Fauziah<span>Ahli Jawatankuasa</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 019-391 9182</p>
+                                    <p>No. Telefon : 019-391 9182</p>
                                 </div>
                             </div>
 
@@ -461,9 +374,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Pn. Atminar<span>Pemeriksa Kira2 I</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 011-1430 6518</p>
+                                    <p>No. Telefon : 011-1430 6518</p>
                                 </div>
                             </div>
 
@@ -477,9 +388,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-title"><h4>Dr Hjh Rohana Abdul Rahman<span>Pemeriksa Kira2 II</span></h4></div>
-                                    <p>Alamat :
-                                    <br>
-                                    No. Telefon : 013-255 9791</p>
+                                    <p>No. Telefon : 013-255 9791</p>
                                 </div>
                             </div>
 

@@ -159,7 +159,7 @@
 							<h4><span>Visi</span> Masjid.</h4>
 						</div>
 
-						<p>Visi Masjid Pangsun  ialah menjadi sebuah pusat kecemerlangan dan tumpuan ahli kariah lebih dari sekadar tempat untuk solat berjemaah 5 waktu dengan menyediakan program-program pengajian ilmu muktabar & berkualiti, pusat Tahfiz Al Quran & Hadis, aktiviti muamalat, kemasyarakatan serta riadhah khususnya bagi anak-anak, remaja dan generasi belia untuk mencapai kehebatan dan kejayaan di dunia dan akhirat.</p>
+						<p style="text-align: justify;">Visi Masjid Pangsun  ialah menjadi sebuah pusat kecemerlangan dan tumpuan ahli kariah lebih dari sekadar tempat untuk solat berjemaah 5 waktu dengan menyediakan program-program pengajian ilmu muktabar & berkualiti, pusat Tahfiz Al Quran & Hadis, aktiviti muamalat, kemasyarakatan serta riadhah khususnya bagi anak-anak, remaja dan generasi belia untuk mencapai kehebatan dan kejayaan di dunia dan akhirat.</p>
 
 					</div>
 
@@ -169,7 +169,7 @@
 							<h4><span>Misi</span> Masjid.</h4>
 						</div>
 
-						<p>Misi Masjid Pangsun ialah membangunkan insan dan masyarakat khususnya ahli kariah Pangsun untuk menjadi Mukmin hebat  dengan melaksanakan pelbagai program dan aktiviti keagamaan dan keduniaan yang berkualiti, inovatif, holistik serta bersinergi dengan pelbagai pihak.</p>
+						<p style="text-align: justify;">Misi Masjid Pangsun ialah membangunkan insan dan masyarakat khususnya ahli kariah Pangsun untuk menjadi Mukmin hebat  dengan melaksanakan pelbagai program dan aktiviti keagamaan dan keduniaan yang berkualiti, inovatif, holistik serta bersinergi dengan pelbagai pihak.</p>
 
 					</div>
 
