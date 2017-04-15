@@ -101,37 +101,26 @@
 
 				<div class="container clearfix">
 
-					<div class="col_one_third">
+					<div class="row bottommargin">
 
-						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<center><h4>Ustaz <span>1</span>.</h4></center>
-						</div>
-						<center><img src="images/masjid/ustaz.jpg"></center>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+						<center>
 
-					</div>
-
-					<div class="col_one_third">
-
-						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<center><h4>Ustaz <span>2</span>.</h4></center>
-						</div>
-						<center><img src="images/masjid/ustaz.jpg"></center>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
-
-					</div>
-
-					<div class="col_one_third col_last">
-
-						<div class="heading-block fancy-title nobottomborder title-bottom-border">
-							<center><h4>Ustaz <span>3</span>.</h4></center>
-						</div>
-						<center><img src="images/masjid/ustaz.jpg"></center>
-						<br>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
-
+							<img src="images/masjid/guru_tahfiz.jpg">
+							<div class="team-desc col-md-offset-2">
+								<div class="col-md-3">
+									<div class="team-title"><h4>AF Ustaz Musa<span>Yemen</span></h4></div>
+								</div>
+                                <div class="col-md-3">
+									<div class="team-title"><h4>AF Ustaz Misbah<span>Pakistan</span></h4></div>
+								</div>
+								<div class="col-md-3">
+									<div class="team-title"><h4>AF Ustaz Bilal<span>Yemen</span></h4></div>
+								</div>
+                            </div>
+								
+						</center>
+						
+						
 					</div>
 
 				</div>

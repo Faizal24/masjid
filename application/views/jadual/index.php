@@ -80,7 +80,19 @@
 
                 <div class="container clearfix">
 
+                    <div class="row">
+                        <div class="col-md-6">
+                            
+                        </div>
+                        <div class="col-md-6">
+                            
+                        </div>
+                    </div>
+
                     <img src="images/masjid/kuliah_harian.jpeg">
+                    <div class="line"></div>
+
+                    <center><img src="images/masjid/bulanpuasa.jpeg"></center>
                     <div class="line"></div>
 
                     <!-- Post Content

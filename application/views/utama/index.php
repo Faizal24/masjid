@@ -91,7 +91,7 @@
                         <div class="col-lg-7">
 
                             <div style="position: relative; margin-bottom: -60px; margin-left: 80px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
-                                <img src="images/masjid/masjidpangsun.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+                                <img src="images/masjid/header.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
                             </div>
 
                         </div>
@@ -107,51 +107,6 @@
                             <div class="col-md-3" style="text-align: center;">
                                 <iframe src="http://www.islamicfinder.org/prayer_service.php?country=malaysia&city=hulu_langat&state=&zipcode=&latitude=3.2092276&longitude=101.8757772&timezone=8&HanfiShafi=1&pmethod=1&fajrTwilight1=10&fajrTwilight2=10&ishaTwilight=10&ishaInterval=30&dhuhrInterval=1&maghribInterval=1&dayLight=0&page_background=&table_background=&table_lines=&text_color=&link_color=&prayerFajr=&prayerSunrise=&prayerDhuhr=&prayerAsr=&prayerMaghrib=&prayerIsha=&lang=" frameborder=0 width=175 height=350 marginwidth=0 marginheight=0 scrolling="no"> </iframe>
                             </div><br>
-
-                            <!-- <div class=" col-md-10 bottommargin">
-                                <div class="row bottommargin">
-                                    <center><font size="4">SAHAM AKHIRAT ANDA - RAYUAN INFAQ UNTUK TABUNG MASJID PANGSUN MELALUI PAY PAL DENGAN KAD VISA ATAU MASTER CARD TERUS KE AKAUN "MASJID KG KUALA PANSOON" DI RHB ISLAMIC BANK BERHAD</font></center>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-2 col-md-offset-3">
-                                        <center>
-                                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                                    <input type="hidden" name="cmd" value="_s-xclick" />
-                                                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-                                                    " />
-                                                    <input type="image" src="images/masjid/paypal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                </form>
-                                            </center>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <center>
-                                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                                    <input type="hidden" name="cmd" value="_s-xclick" />
-                                                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHTwYJKoZIhvcNAQcEoIIHQDCCBzwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCbukz953zXuoGLCvMRQlnPZbEVV1kQkfgAdeUUuQIVILWZVk1OI3+rnAFvPiVa+UivKoWsjPUW2p3casf+GgsLwzKnNNEVv3lgnsNKxXcTBkAfLow31pQYlHuZAXWURBQm8frbxN/3khgF+oxV6U3/w9piAFXcIliBBQXz5l8ERzELMAkGBSsOAwIaBQAwgcwGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIn+wuekeVe7WAgagf/9x/QtGJORNQ6dGglaSwc8QjXhKRkO4rXqEQl1d22LE0Fekt6y96Z+en2kGOrjiAy+UdFrZ5gPuhkNs7aSLHZb1W05AzXo1aWwqkxC6CPuel3MHrlNKQm46WCoUVvd1JZv9HY2KGGpU1Ovgz1mfqyG1uUi9aDY6rRwN4DblJQUVaU/Gv0WB/sqAzamIQieHqrF6qjlgDUK3EWrOjXx18jNVtQ6bS+bWgggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xMjEwMjUwMTI0NDRaMCMGCSqGSIb3DQEJBDEWBBThLzXo/O6uzO8z/tZ/+5ZsNWO7wDANBgkqhkiG9w0BAQEFAASBgDXtS03FoAwoBPzRhxHl6571+3ChK1W2kFWFrCDTPJJqZCLhI3QOFfGM3J98tMSzUfZ3+1ZmDuk6lTGrekFd8xEPYV4EK4tqe2dlVhjCVyrb4gkaB8ndIew/yxDAebBLLFoi2wEGUOH20Hf73jORFx7Hh3ANUE43hf/68kGS2rGU-----END PKCS7-----
-                                                    " />
-                                                    <input type="image" src="images/masjid/paypal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                </form>
-                                            </center>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <center>
-                                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                                    <input type="hidden" name="cmd" value="_s-xclick" />
-                                                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHTwYJKoZIhvcNAQcEoIIHQDCCBzwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCbukz953zXuoGLCvMRQlnPZbEVV1kQkfgAdeUUuQIVILWZVk1OI3+rnAFvPiVa+UivKoWsjPUW2p3casf+GgsLwzKnNNEVv3lgnsNKxXcTBkAfLow31pQYlHuZAXWURBQm8frbxN/3khgF+oxV6U3/w9piAFXcIliBBQXz5l8ERzELMAkGBSsOAwIaBQAwgcwGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIn+wuekeVe7WAgagf/9x/QtGJORNQ6dGglaSwc8QjXhKRkO4rXqEQl1d22LE0Fekt6y96Z+en2kGOrjiAy+UdFrZ5gPuhkNs7aSLHZb1W05AzXo1aWwqkxC6CPuel3MHrlNKQm46WCoUVvd1JZv9HY2KGGpU1Ovgz1mfqyG1uUi9aDY6rRwN4DblJQUVaU/Gv0WB/sqAzamIQieHqrF6qjlgDUK3EWrOjXx18jNVtQ6bS+bWgggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xMjEwMjUwMTI0NDRaMCMGCSqGSIb3DQEJBDEWBBThLzXo/O6uzO8z/tZ/+5ZsNWO7wDANBgkqhkiG9w0BAQEFAASBgDXtS03FoAwoBPzRhxHl6571+3ChK1W2kFWFrCDTPJJqZCLhI3QOFfGM3J98tMSzUfZ3+1ZmDuk6lTGrekFd8xEPYV4EK4tqe2dlVhjCVyrb4gkaB8ndIew/yxDAebBLLFoi2wEGUOH20Hf73jORFx7Hh3ANUE43hf/68kGS2rGU-----END PKCS7-----
-                                                    " />
-                                                    <input type="image" src="images/masjid/paypal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                                                </form>
-                                            </center>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <center><font size="4"><p>AKAUN MASJID : RHB ISLAMIC BANK.  No. A/k : <b>26209000009609</b>  .<br>SUMBANGAN CEK/WANG POS ATAS NAMA : " <b>MASJID KG KUALA PANSOON</b> "</p></font></center>
-                                </div>
-                            </div> -->
-
                             <div class="col-md-4">
                                 <center><h3>Muat turun Teks Khutbah Jumaat <a href="http://e-masjid.jais.gov.my/index.php/ekhutbah/rumi" target="_blank">Di Sini</a></h3></center>
                                 <img src="images/masjid/khutbah.jpg">
@@ -167,6 +122,46 @@
                             </div> -->
                         </div>
                     </div>
+                </div>
+
+                <div class="container clearfix bottommargin" style="text-align: center;">
+
+                    <center><h3>Muat Turun Borang</h3></center>
+
+                    <div class="table-responsive">
+
+                        <table id="datatable1" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center;">Bil</th>
+                                    <th style="text-align: center;">Nama Borang</th>
+                                    <th style="text-align: center;">Muat Turun</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Borang Tahlil Arwah 2017</td>
+                                    <td><button><a href="images/masjid/borang/tahlil_arwah_2017.pdf" download>Muat Turun</a></button></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+
+
                 </div>
 
                 <div class="container clearfix">
