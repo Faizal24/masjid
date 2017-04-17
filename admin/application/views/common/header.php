@@ -7,8 +7,9 @@
 
 
         <!--Datepicker -->
-        <link type="text/css" href="<?php echo base_url(); ?>datepicker/css/bootstrap-datepicker3.css" />
-        <link type="text/css" href="<?php echo base_url(); ?>datepicker/css/bootstrap-datepicker3.min.css" />
+        <!-- <link type="text/css" href="<?php echo base_url(); ?>datepicker/css/bootstrap-datepicker3.css" />
+        <link type="text/css" href="<?php echo base_url(); ?>datepicker/css/bootstrap-datepicker3.min.css" /> -->
+        <!-- <link type="text/css" href="<?php echo base_url(); ?>datetimepicker.css" /> -->
 
         
 		<!-- <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/style.css"></script> -->
@@ -16,10 +17,10 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="https://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
 		<!-- <script type="text/javascript" src="http://momentjs.com/downloads/moment.js"></script> -->
-		<script type="text/javascript" src="<?php echo base_url(); ?>bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+		<!-- <script type="text/javascript" src="<?php echo base_url(); ?>bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>datepicker/js/bootstrap-datepicker.js"></script>
-		<script type="text/javascript" src="<?php echo base_url(); ?>datepicker/js/bootstrap-datepicker.min.js"></script>
+		<script type="text/javascript" src="<?php echo base_url(); ?>datepicker/js/bootstrap-datepicker.min.js"></script> -->
 		
 		
 
@@ -108,7 +109,18 @@
 			</div> -->
 		</div>
 	</nav>
-
+		<div class="container">
+		    <div class="row">
+		        <div class='col-sm-6'>
+		            <input type='text' class="form-control" id='datetimepicker4' />
+		        </div>
+		        <script type="text/javascript">
+		            $(function () {
+		                $('#datetimepicker4').datetimepicker();
+		            });
+		        </script>
+		    </div>
+		</div>
 	<header id="header">
 		<div class="container">
 			<div class="row">

@@ -22,6 +22,11 @@
                     <?php echo form_error('title'); ?>
                 </div>
                 <div class="form-group">
+                    <label>Date</label>
+                    <input type="text" class="form-control" id="dob" name="date" placeholder="Add Date">
+                    <!-- <?php echo form_error('title'); ?> -->
+                </div>
+                <div class="form-group">
                     <label>Content</label>
                     <textarea class="form-control" type="text" name="content" placeholder="Add Content"></textarea>
                      <?php echo form_error('content'); ?>
@@ -38,4 +43,8 @@
 
         <script>
             CKEDITOR.replace( 'content' );
+        </script>
+
+        <script>
+             $("#dob").datetimepicker({format: 'YYYY-MM-DD'});
         </script>
