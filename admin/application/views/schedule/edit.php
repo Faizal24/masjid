@@ -28,14 +28,14 @@
                                 <?php echo form_error('day'); ?>
                             </div>
                             <div class="form-group">
-                               <span> / </span>
+                               
                             </div>
                             <div class="form-group">
                                 <input class="form-control" type="text" name="month" value="<?php echo $schedule['month']; ?>" />
                                 <?php echo form_error('month'); ?>
                             </div>
                              <div class="form-group">
-                               <span> / </span>
+                               
                             </div>
                             <div class="form-group">
                                 <input class="form-control" type="text" name="year" value="<?php echo $schedule['year']; ?>" />
@@ -43,33 +43,41 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <div class="form-group">
                         <label>Time</label>
                         <div class="form-inline">   
                             <div class="form-group">
-                                <input class="form-control" type="text" name="start" value="<?php echo $schedule['start']; ?>" />
+                                 <input id="timepicker" type="text" name="start" class="form-control" style="width:200px;" value="<?php echo $schedule['start']; ?>">
                                 <?php echo form_error('start'); ?>
                             </div>
                             <div class="form-group">
                                <span> until </span>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" name="end" value="<?php echo $schedule['end']; ?>" />
+                                <input id="timepicker2" type="text" name="end" class="form-control" style="width:200px;" value="<?php echo $schedule['end']; ?>">
                                 <?php echo form_error('end'); ?>
                             </div>
                         </div>
                     </div>
 
+                    <script type="text/javascript">
+                        $('#timepicker').timepicker({
+                            template: 'dropdown',
+                            showInputs: false,
+                            defaultTime: false,
+                            minuteStep: 5
+                        });
 
-                     <!-- <div class="form-group">
-                        <label>Start</label>
-                        <input class="form-control" type="text" name="start" />
-                    </div>
-                     <div class="form-group">
-                        <label>End</label>
-                        <input class="form-control" type="text" name="end" />
-                    </div> -->
+                        $('#timepicker2').timepicker({
+                            template: 'dropdown',
+                            showInputs: false,
+                            defaultTime: false,
+                            minuteStep: 5
+                        });
+                    </script>
+
+                     
                      <div class="form-group">
                         <label>Place</label>
                         <input class="form-control" type="text" name="place" value="<?php echo $schedule['place']; ?>" />

@@ -4,27 +4,29 @@
 	    <h3 class="panel-title">Tahfiz</h3>
 	  </div>
 	  <div class="panel-body">
-	  	<div class="form-group">
-	  		<label>Nama : </label>
-	  		<?php echo $tahfiz['nama']; ?>
-	  	</div>
-		<div class="form-group">
-			<label>Umur : </label>
-			<?php echo $tahfiz['umur']; ?> tahun
-		</div>
-		<div class="form-group">
-			<label>Tarikh Mula : </label>
-			<?php echo $tahfiz['tarikh_mula']; ?>
-		</div>
-		<div class="form-group">
-			<label>Juzuk Mula : </label>
-			<?php echo $tahfiz['juzuk_mula']; ?>
-		</div>
-		<div class="form-group">
-			<label>Juzuk Sekarang : </label>
-			<?php echo $tahfiz['juzuk_sekarang']; ?>
-		</div>
-
+	  	<table class="table">
+	  		<tr>
+	  			<td style="width:200px;"><label>Name : </label></td>
+	  			<td><?php echo $tahfiz['nama']; ?></td>
+	  		</tr>
+	  		<tr>
+	  			<td><label>Age : </label></td>
+	  			<td><?php echo $tahfiz['umur']; ?> years</td>
+	  		</tr>
+	  		<tr>
+	  			<td><label>Start Date : </label></td>
+	  			<td><?php echo $tahfiz['tarikh_mula']; ?></td>
+	  		</tr>
+	  		<tr>
+	  			<td><label>Constituents Start : </label></td>
+	  			<td><?php echo $tahfiz['juzuk_mula']; ?></td>
+	  		</tr>
+	  		<tr>
+	  			<td><label>Constituents Now : </label></td>
+	  			<td><?php echo $tahfiz['juzuk_sekarang']; ?></td>
+	  		</tr>
+	  	</table>
+	  	
 
 		<!-- <h1><?php echo $tahfiz['nama']; ?></h1>
 		<div class="post-body">

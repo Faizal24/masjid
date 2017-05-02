@@ -12,24 +12,30 @@
 		<input type="hidden" name="id" value="<?php echo $tahfiz['id']; ?>">
 
 			<div class="form-group">
-				<label>Nama</label>
-				<input type="text" class="form-control" name="nama" placeholder="Nama" value="<?php echo $tahfiz['nama']; ?>">
+				<label>Name</label>
+				<input type="text" class="form-control" name="nama" placeholder="Name" value="<?php echo $tahfiz['nama']; ?>">
 			</div>
 			<div class="form-group">
-				<label>Umur</label>
-				<input class="form-control" name="umur" placeholder="Umur" value="<?php echo $tahfiz['umur']; ?>">
+				<label>Age</label>
+				<input class="form-control" name="umur" placeholder="Age" value="<?php echo $tahfiz['umur']; ?>">
 			</div>
 			<div class="form-group">
-				<label>Tarikh Mula</label>
-				<input class="form-control" name="tarikh_mula" placeholder="Tarikh Mula" value="<?php echo $tahfiz['tarikh_mula']; ?>">
+				    <label for="dob">Start Date</label>
+				    <input type="text" class="form-control" id="dob" name="tarikh_mula" placeholder="Start Date" value="<?php echo $tahfiz['tarikh_mula']; ?>">
+				    <?php echo form_error('tarikh_mula'); ?>
+				    
+	            </div>
+				<script>
+				   $("#dob").datetimepicker({format: 'DD-MM-YYYY'});
+				</script>	
+		
+			<div class="form-group">
+				<label>Juzuk Started</label>
+				<input class="form-control" name="juzuk_mula" placeholder="Juzuk Started" value="<?php echo $tahfiz['juzuk_mula']; ?>">
 			</div>
 			<div class="form-group">
-				<label>Juzuk Mula</label>
-				<input class="form-control" name="juzuk_mula" placeholder="Juzuk Mula" value="<?php echo $tahfiz['juzuk_mula']; ?>">
-			</div>
-			<div class="form-group">
-				<label>Juzuk Sekarang</label>
-				<input class="form-control" name="juzuk_sekarang" placeholder="Juzuk Sekarang" value="<?php echo $tahfiz['juzuk_sekarang']; ?>">
+				<label>Current Juzuk</label>
+				<input class="form-control" name="juzuk_sekarang" placeholder="Current Juzuk" value="<?php echo $tahfiz['juzuk_sekarang']; ?>">
 			</div>
 			<div class="form-group">
 				<button type="submit" class="btn btn-default">Edit</button>

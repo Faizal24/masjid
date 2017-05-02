@@ -4,25 +4,34 @@
 	    <h3 class="panel-title">Posts</h3>
 	  </div>
 	  <div class="panel-body">
-	  	<div class="form-group">
-	  		<label>Picture : </label>
-	  		<!-- <img src="admin/uploads/images/<?php echo $post['picture'] ?>" alt="Standard Post with Image"/> --><!-- <?php echo $post['picture']; ?>-->
-	  		<!-- <img src="https://www.w3schools.com/images/picture.jpg" alt="Smiley face" width="42" height="42"> -->
-	  		<img src="<?php echo base_url(); ?>uploads/images/<?php echo $post['picture']?>" alt="Test" width="250" height="150" />
-
-	  	</div>
-	  	<div class="form-group">
-	  		<label>Title : </label>
-	  		<?php echo $post['title']; ?>
-	  	</div>
-		<div class="form-group">
-			<label>Posted on : </label>
-			<?php echo $post['date']; ?>
-		</div>
-		<div class="form-group">
-			<label>Content : </label>
-			<p><?php echo $post['content']; ?></p>
-		</div>
+	  	<table class="table">
+	  		<tr>
+	  			<td><label>Picture :</label>	</td>
+	  			<td class="thumbnail" style="width:450px;"><img src="<?php echo base_url(); ?>uploads/images/<?php echo $post['picture']?>" alt="Test" /></td>
+	  		</tr>
+	  		<tr>
+	  			<td><label>Title :</label></td>
+	  			<td><?php echo $post['title']; ?></td>
+	  		</tr>
+	  		<tr>
+	  			<td><label>Posted on :</label></td>
+	  			<td><?php echo $post['date']; ?></td>
+	  		</tr>
+	  		<tr>
+	  			<td><label>Content :</label></td>
+	  			<td><?php echo $post['content']; ?></td>
+	  		</tr>
+	  	</table>
+	  			  	
+	  		
+	  
+	  	
+	  	
+	  		
+	  	
+	  	
+		
+		
 	  </div>
 	 </div>
 </div>

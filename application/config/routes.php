@@ -53,6 +53,7 @@ $route['posts/create'] = 'posts/create';
 $route['schedule/update'] = 'schedule/update';
 $route['posts/update'] = 'posts/update';
 $route['schedule/(:any)'] = 'schedule/view/$1';
+// $route['posts/(:any)'] = 'posts/view/$1';
 $route['posts/(:any)'] = 'posts/view/$1';
 $route['default_controller'] = 'utama';
 $route['404_override'] = '';

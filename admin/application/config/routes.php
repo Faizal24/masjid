@@ -57,6 +57,6 @@ $route['posts/update'] = 'posts/update';
 $route['tahfiz/(:any)'] = 'tahfiz/view/$1';
 $route['schedule/(:any)'] = 'schedule/view/$1';
 $route['posts/(:any)'] = 'posts/view/$1';
-$route['default_controller'] = 'posts';
+$route['default_controller'] = 'login';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

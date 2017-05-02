@@ -31,11 +31,11 @@
 	public function create(){
 		$data['title'] = 'Create Post';
 
-		$this->form_validation->set_rules('nama', 'Nama','required');
-		$this->form_validation->set_rules('umur', 'Umur','required');
-		$this->form_validation->set_rules('tarikh_mula', 'Tarikh Mula','required');
-		$this->form_validation->set_rules('juzuk_mula', 'Juzuk Mula','required');
-		$this->form_validation->set_rules('juzuk_sekarang', 'Juzuk Sekarang','required');
+		$this->form_validation->set_rules('nama', 'name','required');
+		$this->form_validation->set_rules('umur', 'age','required');
+		$this->form_validation->set_rules('tarikh_mula', 'start date','required');
+		$this->form_validation->set_rules('juzuk_mula', 'constituents start','required');
+		$this->form_validation->set_rules('juzuk_sekarang', 'constituents now','required');
 		$this->form_validation->set_error_delimiters('<div class="text-danger">', '</div>');
 
 		if($this->form_validation->run() == FALSE){

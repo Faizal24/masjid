@@ -83,14 +83,7 @@
                             </div>
                         </div>
                     </div>
-                     <!-- <div class="form-group">
-                        <label>Month</label>
-                        <input class="form-control" type="text" name="month" />
-                    </div>
-                     <div class="form-group">
-                        <label>Year</label>
-                        <input class="form-control" type="text" name="year" />
-                    </div> -->
+                     
                     <div class="form-group">
                         <label>Time</label>
                         <div class="form-inline">   

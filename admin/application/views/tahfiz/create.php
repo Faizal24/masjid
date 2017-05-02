@@ -11,44 +11,38 @@
 			<?php echo form_open('tahfiz/create'); ?>
 
 				<div class="form-group">
-					<label>Nama</label>
-					<input type="text" class="form-control" name="nama" placeholder="Nama">
-					 <?php echo form_error('nama'); ?>
+					<label for="name">Name</label>
+					<input type="text" class="form-control" name="nama" placeholder="Name">
+					<?php echo form_error('nama'); ?>
 				</div>
+
 				<div class="form-group">
-					<label>Umur</label>
-					<input class="form-control" name="umur" placeholder="Umur">
+					<label for="umur">Age</label>
+					<input type="text" class="form-control" name="umur" placeholder="Age">
 					<?php echo form_error('umur'); ?>
 				</div>
-				<div class="form-group">
-					<label>Tarikh Mula</label>
-					<div id="sandbox-container">
-						<input type="text" class="form-control" placeholder="Tarikh Mula" name="tarikh_mula">
-					</div>
-						<!-- <div class="container-fluid"> -->
 
-						
-					<script type="text/javascript">
-						$('#sandbox-container input').datepicker({
-					    todayHighlight: true
-					});
-					</script>
-				 	<?php echo form_error('tarikh_mula'); ?>
-				</div>
 				<div class="form-group">
-					<label>Juzuk Mula</label>
-					<input class="form-control" name="juzuk_mula" placeholder="Juzuk Mula">
+				    <label for="dob">Start Date</label>
+				    <input type="text" class="form-control" id="dob" name="tarikh_mula" placeholder="Start Date">
+				    <?php echo form_error('tarikh_mula'); ?>
+				    
+	            </div>
+				<script>
+				   $("#dob").datetimepicker({format: 'DD-MM-YYYY'});
+				</script>				
+				
+				<div class="form-group">
+					<label>Constituents Start</label>
+					<input class="form-control" name="juzuk_mula" placeholder="Juzuk Started">
 					<?php echo form_error('juzuk_mula'); ?>
 				</div>
 				<div class="form-group">
-					<label>Juzuk Sekarang</label>
-					<input class="form-control" name="juzuk_sekarang" placeholder="Juzuk Sekarang">
+					<label>Constituents Now</label>
+					<input class="form-control" name="juzuk_sekarang" placeholder="Current Juzuk">
 					<?php echo form_error('juzuk_sekarang'); ?>
 				</div>
-				<!-- <div class="form-group">
-					<label for="date">Date</label>
-					<input type="text" class="form-control" name="date" placeholder="Date">
-				</div> -->
+				
 				<div class="form-group">
 					<button type="submit" class="btn btn-default">Add New Tahfiz</button>
 				</div>
@@ -56,3 +50,4 @@
 		</div>
 	</div>
 </div>
+

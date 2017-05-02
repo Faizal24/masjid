@@ -39,9 +39,16 @@
 			$slug = url_title($this->input->post('title'));
 
 			$data = array(
-				'title' => $this->input->post('title'),
-				'slug' => $slug,
-				'content' => $this->input->post('content')
+				'title' 	=> $this->input->post('title'),
+				'day'		=> $this->input->post('day'),
+				'month'		=> $this->input->post('month'),
+				'year'		=> $this->input->post('year'),
+				'start'		=> $this->input->post('start'),
+				'end'		=> $this->input->post('end'),
+				'place'		=> $this->input->post('place'),
+
+				'slug' 		=> $slug,
+				'content' 	=> $this->input->post('content')
 			);
 			$this->db->where('id', $this->input->post('id'));
 			return $this->db->update('schedules', $data);

@@ -187,7 +187,7 @@
                             </ul>
                             <div class="entry-content">
                                 <p><?php echo $post['content'] ?></p>
-                                <a href="blog-single.html" class="more-link">Read More</a>
+                                <a href="<?php echo site_url('posts/'.$post['slug']) ?>" class="more-link">Read More</a>
                             </div>
                         </div>
                         
