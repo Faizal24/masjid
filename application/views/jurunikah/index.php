@@ -54,7 +54,7 @@
 
                 <div class="swiper-container swiper-parent">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide dark" style="background-image: url('images/masjid/nikah.jpg');">
+                        <div class="swiper-slide dark" style="background-image: url('images/masjid/nikah.JPG');">
                             <div class="container clearfix">
                                 <div class="slider-caption slider-caption-center">
                                     <h2 data-caption-animate="fadeInUp">Perkhidmatan Jurunikah</h2>

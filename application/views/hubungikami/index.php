@@ -90,7 +90,7 @@
 								Selangor Darul Ehsan.<br>
 							</address>
 							<abbr title="Phone Number"><strong>Phone:</strong></abbr> +6019-2338393<br>
-							<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+							<abbr title="Email Address"><strong>Email:</strong></abbr> nazirmasjidpangsun@gmail.com
 
 						</div><!-- Contact Info End -->
 
@@ -183,7 +183,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-3 col-sm-6 bottommargin clearfix">
+						<div class="col-md-2 col-sm-6 bottommargin clearfix">
 							<div class="feature-box fbox-center fbox-bg fbox-plain">
 								<div class="fbox-icon">
 									<a href="#"><i class="icon-phone3"></i></a>
@@ -192,12 +192,12 @@
 							</div>
 						</div>
 
-						<div class="col-md-3 col-sm-6 bottommargin clearfix">
+						<div class="col-md-4 col-sm-6 bottommargin clearfix">
 							<div class="feature-box fbox-center fbox-bg fbox-plain">
 								<div class="fbox-icon">
 									<a href="#"><i class="icon-email"></i></a>
 								</div>
-								<h3>Email Kami<span class="subtitle">CanvasOnSkype</span></h3><br>
+								<h3>Email Kami<span class="subtitle">nazirmasjidpangsun@gmail.com</span></h3><br>
 							</div>
 						</div>
 
@@ -206,7 +206,7 @@
 								<div class="fbox-icon">
 									<a href="https://www.facebook.com/TahfizPangsun/" target="_blank"><i class="icon-facebook2"></i></a>
 								</div>
-								<h3>Facebook Maahad Tahfiz Masjid Pangsun<span class="subtitle">2.3M Followers</span></h3>
+								<h3>Facebook<span class="subtitle">Maahad Tahfiz Masjid Pangsun</span></h3>
 							</div>
 						</div>
 

@@ -95,11 +95,11 @@
 
 			<div class="content-wrap" id="perutusan">
 
-				<div class="row common-height clearfix">
+				<div class="row clearfix">
 
-					<div class="col-sm-5 col-padding" style="background: url('images/masjid/nazir.png') center center no-repeat; background-size: cover;"></div>
+					<div class="col-sm-3 col-sm-offset-1 col-padding topmargin" style="background: url('images/masjid/nazir.png') center center no-repeat; background-size: cover; height: 400px;"></div>
 
-					<div class="col-sm-7 col-padding">
+					<div class="col-sm-8 col-padding">
 						<div>
 							<div class="heading-block">
 								<span class="before-heading color">Perutusan Nazir Masjid Kg. Kuala Pangsun</span>
@@ -109,7 +109,7 @@
 							<div class="row clearfix">
 
 								<div>
-									<img src="images/masjid/perutusan.jpg" style="width: 700px; height: 1000px;">
+									<img src="images/masjid/perutusan.jpg" style="width: 700px; height: 700px;">
 								</div>
 
 							</div>

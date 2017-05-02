@@ -154,7 +154,47 @@
                                     <td>3</td>
                                     <td>N/A</td>
                                     <td>N/A</td>
+                                </tr><!-- 
+                                <tr>
+                                    <td>4</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
                                 </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr> -->
 
                             </tbody>
                         </table>
@@ -173,12 +213,12 @@
                     <?php foreach ($posts as $post) : ?>
                         
                    
-                        <div class="entry clearfix">
-                            <div class="entry-image" style="width:350px;height:250px;">
+                        <div class="entry clearfix common-height">
+                            <div class="entry-image">
                                 <a data-lightbox="image"><img class="image_fade" src="admin/uploads/images/<?php echo $post['picture'] ?>" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-title">
-                                <h2><a href="blog-single.html"><?php echo $post['title'] ?></a></h2>
+                                <h2><a href="#"><?php echo $post['title'] ?></a></h2>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li><i class="icon-calendar3"></i><?php echo $post['date'] ?></li>
@@ -187,7 +227,7 @@
                             </ul>
                             <div class="entry-content">
                                 <p><?php echo $post['content'] ?></p>
-                                <a href="blog-single.html" class="more-link">Read More</a>
+                                <a href="#" class="more-link">Read More</a>
                             </div>
                         </div>
                         
