@@ -105,7 +105,7 @@
 							<div class="post-navigation clearfix">
 
 								<div class="col_half nobottommargin">
-									<a href="utama">&lArr; Go Back</a>
+									<a href="<?php echo base_url() ?>">&lArr; Go Back</a>
 								</div>
 
 							</div><!-- .post-navigation end -->
