@@ -17,8 +17,8 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo">
-                        <a href="index.php" class="standard-logo" data-dark-logo="images/masjid/masjid_pangsun_small.png"><img src="images/masjid/masjid_pangsun_small_brown.png" alt="Masjid Logo"></a>
-                        <a href="index.php" class="retina-logo" data-dark-logo="images/masjid/full/masjid_pangsun.png"><img src="images/masjid/full/masjid_pangsun_brown.png" alt="Masjid Logo"></a>
+                        <a href="index.php" class="standard-logo" data-dark-logo="images/masjid/masjid_pangsun_small_brown.png"><img src="images/masjid/masjid_pangsun_small_brown.png" alt="Masjid Logo"></a>
+                        <a href="index.php" class="retina-logo" data-dark-logo="images/masjid/masjid_pangsun_small_brown.png"><img src="images/masjid/full/masjid_pangsun_brown.png" alt="Masjid Logo"></a>
                     </div><!-- #logo end -->
 
                     <!-- Primary Navigation
@@ -54,10 +54,10 @@
 
                 <div class="swiper-container swiper-parent">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide dark" style="background-image: url('images/masjid/nikah.jpg');">
+                        <div class="swiper-slide dark" style="background-image: url('images/masjid/jenazah.jpg');">
                             <div class="container clearfix">
                                 <div class="slider-caption slider-caption-center">
-                                    <h2 data-caption-animate="fadeInUp">Pengurusan<br>Jenazah</h2>
+                                    <h2 data-caption-animate="fadeInUp" style="color: #1ABC9C">Pengurusan<br>Jenazah</h2>
                                     <!-- <p data-caption-animate="fadeInUp" data-caption-delay="200"><b>He who builds a masjid in the way of Allah, Allah will build a house for him in the paradise.</b></p> -->
                                 </div>
                             </div>
