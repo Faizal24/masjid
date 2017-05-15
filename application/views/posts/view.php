@@ -35,7 +35,11 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
+<<<<<<< HEAD
 		<!-- Header
+=======
+	        <!-- Header
+>>>>>>> origin/master
         ============================================= -->
         <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
 
@@ -48,8 +52,13 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo">
+<<<<<<< HEAD
                         <a href="index.php" class="standard-logo" data-dark-logo="images/masjid/masjid_pangsun_small.png"><img src="images/masjid/masjid_pangsun_small_brown.png" alt="Masjid Logo"></a>
                         <a href="index.php" class="retina-logo" data-dark-logo="images/masjid/full/masjid_pangsun.png"><img src="images/masjid/full/masjid_pangsun_brown.png" alt="Masjid Logo"></a>
+=======
+                        <a href="<?php echo base_url();?>utama" class="standard-logo" data-dark-logo="images/masjid/masjid_pangsun_small.png"><img src="<?php echo base_url();?>images/masjid/masjid_pangsun_small_brown.png" alt="Masjid Logo"></a>
+                        <a href="<?php echo base_url();?>utama" class="retina-logo" data-dark-logo="images/masjid/full/masjid_pangsun.png"><img src="<?php echo base_url();?>images/masjid/full/masjid_pangsun_brown.png" alt="Masjid Logo"></a>
+>>>>>>> origin/master
                     </div><!-- #logo end -->
 
                     <!-- Primary Navigation
@@ -57,6 +66,7 @@
                     <nav id="primary-menu" class="dark">
 
                         <ul>
+<<<<<<< HEAD
                             <li><a href="utama"><div>Utama</div></a></li>
                             <li><a href="profil"><div>Profil</div></a></li>
                             <li class="current"><a href="organisasi"><div>Organisasi</div></a></li>
@@ -70,6 +80,21 @@
                             <li><a href="jadual"><div>Takwim</div></a></li>
                             <li><a href="maahadtahfiz"><div>Maahad Tahfiz</div></a></li>
                             <li><a href="hubungikami"><div>Hubungi Kami</div></a></li>
+=======
+                            <li><a href="<?php echo base_url();?>utama"><div>Utama</div></a></li>
+                            <li><a href="<?php echo base_url();?>profil"><div>Profil</div></a></li>
+                            <li><a href="<?php echo base_url();?>organisasi"><div>Organisasi</div></a></li>
+                            <li><a href="<?php echo base_url();?>kemudahan"><div>Kemudahan</div></a></li>
+                            <li><a href="#"><div>Perkhidmatan</div></a>
+                                <ul>
+                                    <li><a href="<?php echo base_url();?>jenazah"><div>Pengurusan<br>Jenazah</div></a></li>
+                                    <li><a href="<?php echo base_url();?>jurunikah"><div>Perkhidmatan<br>Jurunikah</div></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="<?php echo base_url();?>jadual"><div>Takwim</div></a></li>
+                            <li><a href="<?php echo base_url();?>maahadtahfiz"><div>Maahad Tahfiz</div></a></li>
+                            <li><a href="<?php echo base_url();?>hubungikami"><div>Hubungi Kami</div></a></li>
+>>>>>>> origin/master
                         </ul>
 
                     </nav><!-- #primary-menu end -->
@@ -78,7 +103,11 @@
 
             </div>
 
+<<<<<<< HEAD
         </header><!-- #header end -->
+=======
+        </header><!-- #header end -->  
+>>>>>>> origin/master
 
 		<!-- Content
 		============================================= -->
@@ -117,12 +146,14 @@
 								<!-- Entry Image
 								============================================= -->
 								<div class="entry-image">
-									<a href="#"><img class="thumbnail" src="<?php echo base_url(); ?>admin/uploads/images/<?php echo $post['picture']?>" alt="Blog Single" style="height:300px;width:300px;"></a>
+									<a href="#"><img class="thumbnail" src="<?php echo base_url(); ?>admin/uploads/images/<?php echo $post['picture']?>" alt="Blog Single"></a>
 								</div><!-- .entry-image end -->
 
 								<!-- Entry Content
 								============================================= -->
 								<div class="entry-content notopmargin">
+
+									<p><?php echo $post['content'];?></p>
 
 									<!-- <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 
@@ -154,7 +185,7 @@
 							<div class="post-navigation clearfix">
 
 								<div class="col_half nobottommargin">
-									<a href="<?php echo base_url() ?>">&lArr; Go Back</a>
+									<a href="<?php echo base_url();?>utama">&lArr; Go Back</a>
 								</div>
 
 							</div><!-- .post-navigation end -->
@@ -165,7 +196,7 @@
 
 					<!-- Sidebar
 					============================================= -->
-<!-- 					<div class="sidebar nobottommargin col_last clearfix">
+					<div class="sidebar nobottommargin col_last clearfix">
 						<div class="sidebar-widgets-wrap">
 							<div class="widget clearfix">
 
@@ -176,7 +207,7 @@
 
 						</div>
 
-					</div> --><!-- .sidebar end -->
+					</div> <!-- .sidebar end-->
 
 				</div> 
 				               <div class="section nobottommargin">

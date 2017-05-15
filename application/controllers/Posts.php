@@ -23,9 +23,9 @@
 
 		$data['title'] = $data['post']['title'];
 
-		// $this->load->view('header');
+		$this->load->view('common/header');
 		$this->load->view('posts/view', $data);
-		$this->load->view('footer');
+		$this->load->view('common/footer');
 	}
 
 	public function create(){
