@@ -47,7 +47,7 @@
 
             </div>
 
-        </header><!-- #header end -->        
+        </header><!-- #header end -->
 
         <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
             <div class="slider-parallax-inner">
@@ -154,7 +154,47 @@
                                     <td>3</td>
                                     <td>N/A</td>
                                     <td>N/A</td>
+                                </tr><!--
+                                <tr>
+                                    <td>4</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
                                 </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr> -->
 
                             </tbody>
                         </table>
@@ -171,14 +211,14 @@
                     <div id="posts" class="post-grid grid-container grid-3 clearfix" data-layout="fitRows">
 
                     <?php foreach ($posts as $post) : ?>
-                        
-                   
+
+
                         <div class="entry clearfix">
-                            <div class="entry-image" style="width:350px;height:250px;">
-                                <a data-lightbox="image"><img class="image_fade" src="admin/uploads/images/<?php echo $post['picture'] ?>" alt="Standard Post with Image"></a>
+                            <div class="entry-image">
+                                <a data-lightbox="image"><img class="image_fade responsive" src="admin/uploads/images/<?php echo $post['picture'] ?>" alt="Standard Post with Image" style="height: 250px;"></a>
                             </div>
                             <div class="entry-title">
-                                <h2><a href="blog-single.html"><?php echo $post['title'] ?></a></h2>
+                                <h2><a href="#"><?php echo $post['title'] ?></a></h2>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li><i class="icon-calendar3"></i><?php echo $post['date'] ?></li>
@@ -190,7 +230,7 @@
                                 <a href="<?php echo site_url('posts/'.$post['slug']) ?>" class="more-link">Read More</a>
                             </div>
                         </div>
-                        
+
                     <?php endforeach; ?>
                         <!-- <div class="entry clearfix">
                             <div class="entry-image">

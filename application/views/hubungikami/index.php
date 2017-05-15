@@ -80,7 +80,7 @@
 
 						<!-- Contact Info
 						============================================= -->
-						<div class="col_two_fifth">
+						<div class="col-md-9">
 
 							<address>
 								<strong>Alamat:</strong><br>
@@ -94,7 +94,7 @@
 
 						</div><!-- Contact Info End -->
 
-						<div class="clear"></div>
+						<div class="clear" style="height: 20px;"></div>
 
 						<!-- Modal Contact Form
 						============================================= -->
@@ -183,7 +183,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-2 col-sm-6 bottommargin clearfix">
+						<div class="col-md-3 col-sm-6 bottommargin clearfix">
 							<div class="feature-box fbox-center fbox-bg fbox-plain">
 								<div class="fbox-icon">
 									<a href="#"><i class="icon-phone3"></i></a>
@@ -192,12 +192,12 @@
 							</div>
 						</div>
 
-						<div class="col-md-4 col-sm-6 bottommargin clearfix">
+						<div class="col-md-3 col-sm-6 bottommargin clearfix">
 							<div class="feature-box fbox-center fbox-bg fbox-plain">
 								<div class="fbox-icon">
 									<a href="#"><i class="icon-email"></i></a>
 								</div>
-								<h3>Email Kami<span class="subtitle">nazirmasjidpangsun@gmail.com</span></h3><br>
+								<h3>Email Kami<span class="subtitle" style="margin-left: -10px;">nazirmasjidpangsun@gmail.com</span></h3><br>
 							</div>
 						</div>
 
